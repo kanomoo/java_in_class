@@ -75,7 +75,7 @@ public class ex9 {
         System.out.print("Enter second number : ");
         second = scan.nextInt();
         int sum = 0;
-        DecimalFormat twoDigit = new DecimalFormat("0.00"); 
+        DecimalFormat twoDigit = new DecimalFormat("0.00"); // จัดรูปแบบตัวเลข
         for (int num = first; num <= second; num++) {
             sum += num;
             if (num % 5 == 0)
