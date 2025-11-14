@@ -15,7 +15,9 @@
 //             won = scanner.nextInt();
 //         }
 //         float ration = (float) won / NUM_GAMES;
-//         NumberFormat fmt = NumberFormat.getPercentInstance(); //getPercentInstance() ทำหน้าที่สร้างอินสแตนซ์(object)ที่รู้จักรูปแบบเปอร์เซ็นต์ไว้ เป็นเมธอด static คือ เมธอดที่เป็นของคลาสโดยตรง ไม่จำเป็นต้อง new ในการสร้าง object ใหม่
+//         NumberFormat fmt = NumberFormat.getPercentInstance();
+//         //getPercentInstance() ทำหน้าที่สร้างอินสแตนซ์(object) ที่รู้จักรูปแบบเปอร์เซ็นต์ไว้ เป็นเมธอด static คือ เมธอดที่เป็นของคลาสโดยตรง ไม่จำเป็นต้อง new ในการสร้าง object ใหม่
+//         // ซึ่งต่างจากพวก Decimalformat ที่จำเป็นต้อง new ในการกำหนดอินสแตนซ์(object) ก่อนใช้
 //         System.out.println();
 //         System.out.println("Winning percentage : " + fmt.format(ration)); //.format() คือเมธอดที่รับค่าตัวเลขมาแปลงตามรูปแบบนั้น และคืนข้อความ
 //         scanner.close();
