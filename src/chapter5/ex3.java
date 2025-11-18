@@ -142,6 +142,54 @@
 
 package chapter5;
 
+import javax.swing.JOptionPane;
+
 public class ex3 {
     
+    public static void start() {
+        boolean done = true;
+        do {
+            String choice = JOptionPane.showInputDialog(">>> Main Menu  <<<\n 1. Cal Grade\n 2. Change Number\n 3. Exit\nSelect choice:");
+            switch (choice) {
+                case "1": calGrade(); break;
+                case "2": calNumber(); break;
+                case "3": done = false; break;
+                case null: done = false; break; // ใช้ null กัน error ตอนกดปุ่มปิด
+                default: JOptionPane.showMessageDialog(null, "No choice", "Error Message", JOptionPane.ERROR_MESSAGE);
+            }
+        } while (done);
+        JOptionPane.showMessageDialog(null, "Exit Program.");
+    }
+    public static void calGrade() {
+        String numStr = JOptionPane.showInputDialog("Enter your score:");
+        String grade;
+        if (numStr != null && numStr.length() > 0) {
+            int score = Integer.parseInt(numStr);
+            if (score >= 80) grade = "A";
+            else if (score >= 75) grade = "B+";
+            else if (score >= 70) grade = "B";
+            else if (score >= 65) grade = "C+";
+            else if (score >= 60) grade = "C";
+            else if (score >= 55) grade = "D+";
+            else if (score >= 50) grade = "D";
+            else grade = "F";
+            JOptionPane.showMessageDialog(null, "Score : " + score + " , got grade : " + grade);
+        } else JOptionPane.showMessageDialog(null, "No Input", "Error Message", JOptionPane.ERROR_MESSAGE);
+    }
+    public static void calNumber() {
+        String numStr = JOptionPane.showInputDialog("Enter integer number :");
+        if (numStr != null && numStr.length() > 0) {
+            int num = Integer.parseInt(numStr);
+            String bin = "";
+            while (num > 0) {
+                int digit = num % 2;
+                bin = digit + bin; // เอาค่ามาบวกไว้ด้านหน้าค่าเก่า
+                num /= 2;
+            }
+            JOptionPane.showMessageDialog(null, "IInteger Number : " + numStr + "\nBinnary number : " + bin);
+        } else JOptionPane.showMessageDialog(null, "No Input", "Error Message", JOptionPane.ERROR_MESSAGE);
+    }
+    public static void main(String[] args) {
+        ex3.start(); // method ทั้งหมดเป็น static ใช้ start() ได้เลย แต่เรียก class ไว้กัน error
+    }
 }
