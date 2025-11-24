@@ -464,7 +464,7 @@ public class ex9 {
         for (int counter = 0; counter < array.length; counter++) {
             array[counter] = rnd.nextInt(100);
         }
-        Arrays.sort(array);
+        Arrays.sort(array); // การใช้ binarysearch ต้อง sort ก่อนเสมอ
         do {
             int searchKey = Integer.parseInt(JOptionPane.showInputDialog("Enter number to search(-1 : exit): "));
             if (searchKey != -1) {
