@@ -90,5 +90,6 @@ public class ex8 {
             won = scan.nextInt();
         }
         System.out.println("\nWinning percentage : " + fmt.format((float) won / num_game)); //.format() คือเมธอดที่รับค่าตัวเลขมาแปลงตามรูปแบบนั้น และคืนข้อความ
+        scan.close();
     }
 }

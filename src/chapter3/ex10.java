@@ -68,5 +68,6 @@ public class ex10 {
         }
         System.out.println("Year = 5");
         System.out.println("Amount of deposit = " + twoDigit.format(amount));
+        scanner.close();
     }
 }

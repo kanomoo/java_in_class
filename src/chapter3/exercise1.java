@@ -16,5 +16,6 @@ public class exercise1 {
             j *= 10;
         }
         System.out.println("Number " + num + ((num % 2 == 0) ? " is Even." : " is Odd."));
+        scanner.close();
     }
 }

@@ -19,5 +19,6 @@ public class ex1 {
         System.out.println("Random avlue is " + Math.random());
         System.out.println("Pi value is " + Math.PI);
         System.out.println("Exponential value is " + Math.E);
+        scanner.close();
     }
 }

@@ -24,5 +24,6 @@ public class exercise2 {
                 i *= 10;
             }
         } else System.out.println("Number not changed");
+        scanner.close();
     }
 }

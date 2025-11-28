@@ -17,5 +17,6 @@ public class exercise7 {
             }
         }
         System.out.println("Number " + number + result);
+        scanner.close();
     }
 }

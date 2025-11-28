@@ -55,5 +55,6 @@ public class exercise4 {
             System.out.printf("%3d%,12.2f%,11.2f%,13.2f\n", count, principle, interest, total);
             principle = total;
         }
+        scanner.close();
     }
 }

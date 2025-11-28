@@ -43,5 +43,6 @@ public class ex12 {
         }
         System.out.println("Total value : " + twoDigit.format(sum));
         System.out.println("Average value : " + twoDigit.format(sum / num));
+        scanner.close();
     }
 }

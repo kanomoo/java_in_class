@@ -54,5 +54,6 @@ public class ex6 {
             }
             System.out.println("Sentense is " + count + " word.");
         } else System.out.println("No data input.");
+        scanner.close();
     }
 }

@@ -10,5 +10,6 @@ public class exercises1 {
         celsius = scan.nextFloat();
         fahrenheit = ((9/5f) * celsius) + 32;
         System.out.println("Temperature Fahrenheit = " + fahrenheit);
+        scan.close();
     }
 }

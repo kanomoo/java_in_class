@@ -85,5 +85,6 @@ public class ex9 {
         }
         System.out.println("\nSummation of " + first + " to " + second + " = " + sum);
         System.out.println("Average : " + twoDigit.format((float) sum / second));
+        scan.close();
     }
 }

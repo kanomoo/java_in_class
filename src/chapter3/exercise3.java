@@ -17,5 +17,6 @@ public class exercise3 {
         else rate = 0;
         System.out.println("You got rate = " + (rate * 100) + "%");
         System.out.println("Your sale " + num + ", commission = " + (int) (num * rate));
+        scanner.close();
     }
 }

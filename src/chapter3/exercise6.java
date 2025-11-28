@@ -75,5 +75,6 @@ public class exercise6 {
                 System.out.println("none");
                 break;
         }
+        scanner.close();
     }
 }

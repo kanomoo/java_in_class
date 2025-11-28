@@ -52,5 +52,6 @@ public class ex13 {
         }
         System.out.println("Total value : " + twodigit.format(total));
         System.out.println("Average avlue : " + twodigit.format(total / count));
+        scanner.close();
     }
 }

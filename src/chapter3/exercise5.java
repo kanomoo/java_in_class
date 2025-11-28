@@ -35,5 +35,6 @@ public class exercise5 {
         for (int i = 0; i < num.length(); i++) { // หาความกว้าง num
             System.out.println(num.charAt(i)); // chartAt คืนค่าตาม index char
         }
+        scanner.close();
     }
 }
