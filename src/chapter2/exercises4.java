@@ -41,5 +41,6 @@ public static int sum(int n1, int n2, int n3) {
         num = scan.nextInt();
         int n1 = num / 100, n2 = num % 100 / 10, n3 = num % 10;
         System.out.println("Summation of digit : " + n1  + "+" + n2 + "+" + n3 + " = " + sum(n1, n2, n3));
+        scan.close();
     }
 }

@@ -10,5 +10,6 @@ public class exercises5 {
         System.out.println("Decimal number #1 : " + (int) (num * 10));
         System.out.println("Decimal number #2 : " + (int) ((num * 100) % 10));
         System.out.println("Decimal number #2 : " + (int) ((num * 1000) % 10));
+        scan.close();
     }
 }

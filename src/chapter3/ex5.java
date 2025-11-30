@@ -63,5 +63,6 @@ public class ex5 {
         }
         if (num == 0 && count == 4) System.out.println("Number " + num_old + " is 4 digits.");
         else System.out.println("Number " + num_old + " is not equal 4 digits.");
+        scan.close();
     }
 }

@@ -51,6 +51,7 @@ public class ex11 {
             num--;
         } while (num > 0);
         System.out.println("Sum value is " + sum);
+        scanner.close();
     }
     
 }

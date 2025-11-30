@@ -127,5 +127,6 @@ public class ex7 {
             System.out.println(message);
         else
             System.out.println("Invalid Operator.");
+        scan.close();
     }
 }
