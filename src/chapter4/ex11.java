@@ -105,7 +105,7 @@ public class ex11 {
                     if (numStr != null && numStr.length() > 0) {
                         int num = Integer.parseInt(numStr);
                         String prime = "is Prime Number";
-                        for (int i = 2; i < num / 2; i ++) {
+                        for (int i = 2; i <= num / 2; i++) {
                             if (num % i == 0) prime = "is Not Prime Number";
                             break;
                         }
