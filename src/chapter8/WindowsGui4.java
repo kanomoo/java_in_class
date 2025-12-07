@@ -87,22 +87,34 @@
 package chapter8;
 
 import java.awt.Container;
+import java.awt.FlowLayout;
+import java.awt.Font;
 
 import javax.swing.JComboBox;
 import javax.swing.JFrame;
 import javax.swing.JList;
 
 public class WindowsGui4 {
-    JFrame window = new JFrame();
-    Container c = window.getContentPane();
+    JFrame window = new JFrame("GUI 4 : JList, JComboBox");
     JList<String> list;
     JComboBox<String> comboBox;
-
+    Container c = window.getContentPane();
     public WindowsGui4() {
-        
+        createGui();
+        window.setSize(350, 160);
+        window.setVisible(true);
+        window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
 
     public void createGui() {
-
+        c.setLayout(new FlowLayout());
+        String strList[] = {"List1", "List2", "List3", "List4"};
+        String strComboBox[] = {"ComboBox1", "ComboBox2", "ComboBox3", "ComboBox4"};
+        list = new JList<>(strList);
+        list.setFont(new Font("Tahoma", Font.BOLD, 18));
+        list.setSelectedIndex(1);
+        comboBox = new JComboBox<>(strComboBox);
+        comboBox.setSelectedIndex(2);
+        c.add(list); c.add(comboBox);
     }
 }
