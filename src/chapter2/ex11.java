@@ -15,6 +15,11 @@
 //     }
 // }
 
+
+
+
+
+
 package chapter2;
 import java.util.Scanner;
 
@@ -44,3 +49,27 @@ public class ex11 {
         scan.close();
     }
 }
+
+
+
+
+
+// package chapter2;
+
+// import javax.swing.JOptionPane;
+
+// public class ex11 {
+
+//     public ex11() {
+//     }
+
+//     public void menu() {
+//         String name1 = JOptionPane.showInputDialog("Enter your name 1 : ");
+//         String name2 = JOptionPane.showInputDialog("Enter your name 2 : ");
+//         JOptionPane.showMessageDialog(null, "You entered name1 : " + name1 + "\nYou entered name2 : " + name2);
+//     }
+
+//     public static void main(String[] args) {
+//         new ex11().menu();
+//     }
+// }

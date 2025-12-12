@@ -13,6 +13,11 @@ public class ex10 {
     public ex10(double with, double height) {
         message = "Rectangle";
         area = with * height;
+    
+    }
+    public ex10(float base, float height) {
+        message = "Triangle";
+        area = 0.5 * base * height;
     }
 
     public static void main(String[] args) {
@@ -24,6 +29,10 @@ public class ex10 {
         ex10 rectangle = new ex10(12.0, 20.0);
         System.out.print("Calculate Area" + rectangle.message);
         System.out.println(" = " + rectangle.area);
+
+        ex10 triangle = new ex10(12f, 30f);
+        System.out.print("Calculate Area" + triangle.message);
+        System.out.println(" = " + triangle.area);
     }
 }
 
