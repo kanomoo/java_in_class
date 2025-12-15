@@ -18,6 +18,22 @@ public class Register {
     }
 
     public void setStudent(Student std) {
-        this
+        this.std = std;
+    }
+
+    public void setSubject(Subject sub) {
+        this.subject[++count] = sub;
+    }
+
+    public void setSubject(Subject sub, int n ) {
+        this.subject[n] = sub;
+    }
+
+    public String getStudent() {
+        return std.toString();
+    }
+
+    public String getSubject(int n) {
+        return subject[n].toString();
     }
 }

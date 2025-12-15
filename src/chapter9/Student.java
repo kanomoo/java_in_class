@@ -3,16 +3,16 @@ package chapter9;
 public class Student {
     private String studentCode = "";
     private String studentName = "";
-    private int studentCredit = 3;
+    private String studentSurname = "";
 
     // Creates a new instance of Student
     public Student() {
     }
 
-    public Student(String code, String name, int credit) {
+    public Student(String code, String name, String surname) {
         setStudentCode(code);
         setStudentName(name);
-        setStudentCredit(credit);
+        setStudentSurname(surname);
     }
 
     public void setStudentCode(String code) {
@@ -23,8 +23,8 @@ public class Student {
         studentName = name;
     }
 
-    public void setStudentCredit(int credit) {
-        studentCredit = credit;
+    public void setStudentSurname(String surname) {
+        studentSurname = surname;
     }
 
     public String getStudentCode() {
@@ -35,11 +35,11 @@ public class Student {
         return studentName;
     }
 
-    public int getStudentCredit() {
-        return studentCredit;
+    public String getStudentSurname() {
+        return studentSurname;
     }
 
     public String toString() {
-        return getStudentCode() + " " + getStudentName() + " " + getStudentCredit();
+        return getStudentCode() + " " + getStudentName() + " " + getStudentSurname();
     }
 }
