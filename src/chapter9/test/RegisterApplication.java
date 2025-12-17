@@ -4,6 +4,7 @@ import javax.swing.JButton;
 import javax.swing.JComboBox;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
+import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
@@ -38,13 +39,10 @@ public class RegisterApplication extends JFrame implements ActionListener {
         initStudentData();
         initSubjectData();
         initGui();
+        reg = new Register(new Student(), max);
         setSize(600, 500);
         setVisible(true);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-    }
-
-    public void actionPerformed(ActionEvent event) {
-        String test = "";
     }
 
     public void initStudentData() {
@@ -66,7 +64,7 @@ public class RegisterApplication extends JFrame implements ActionListener {
         sub[2] = new Subject("060243209", "Data System", 3);
         sub[3] = new Subject("060243210", "Data Communiication", 3);
         sub[4] = new Subject("060243210", "Data Communiication II", 3);
-        for(int i = 0; i < std.length; i++)
+        for(int i = 0; i < sub.length; i++)
             subjectStr[i] = sub[i].toString();
         subCombo = new JComboBox<String>(subjectStr);
     }
@@ -96,6 +94,7 @@ public class RegisterApplication extends JFrame implements ActionListener {
         panelSubject.add(subCombo);
         addsubBtn = new JButton("Add Subject");
         addsubBtn.addActionListener(this);
+        addsubBtn.setEnabled(false);;
         panelSubject.add(addsubBtn);
         container.add(panelSubject);
     }
@@ -119,8 +118,10 @@ public class RegisterApplication extends JFrame implements ActionListener {
         panelCommand.setBorder(new LineBorder(Color.LIGHT_GRAY));
         saveBtn = new JButton("Save");
         saveBtn.addActionListener(this);
+        saveBtn.setEnabled(false);
         cancelBtn = new JButton("Cancel");
         cancelBtn.addActionListener(this);
+        cancelBtn.setEnabled(false);
         panelCommand.add(saveBtn);
         panelCommand.add(cancelBtn);
         container.add(panelCommand);
@@ -133,4 +134,49 @@ public class RegisterApplication extends JFrame implements ActionListener {
         guiResult();
         guiCommand();
     }
+
+    public void actionPerformed(ActionEvent event) {
+        if (event.getSource() == addstdBtn) {
+            int n = stdCombo.getSelectedIndex();
+            stdText.setText(std[n].toString());
+            reg.setStudent(std[n]);
+            addstdBtn.setEnabled(false);
+            addsubBtn.setEnabled(true);
+            saveBtn.setEnabled(true);
+            cancelBtn.setEnabled(true);
+        }
+        else if (event.getSource() == addsubBtn) {
+            int n  = subCombo.getSelectedIndex();
+            subTextArea.append(sub[n].toString() + "\n");
+            reg.setSubject(sub[n], count);
+            count++;
+            if (count == 5) addsubBtn.setEnabled(false);
+        }
+        else if (event.getSource() == saveBtn) {
+            String output = "";
+            output = "Student : " + reg.getStudent();
+            output += "\nSubject:\n";
+            for(int i = 0; i < count; i++)
+                output += reg.getSubject(i) + "\n";
+            JOptionPane.showMessageDialog(this, output);
+            resetBtn();
+            count = 0;
+        }
+        else if (event.getSource() == cancelBtn) {
+            stdText.setText("");
+            subTextArea.setText("");
+            count = 0;
+            resetBtn();
+        }
+    }
+
+    public void resetBtn() {
+        addstdBtn.setEnabled(true);
+        addsubBtn.setEnabled(false);
+        saveBtn.setEnabled(false);
+        cancelBtn.setEnabled(false);
+        stdText.setText("");
+        subTextArea.setText("");
+    }
+
 }
