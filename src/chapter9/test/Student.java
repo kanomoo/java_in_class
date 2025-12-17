@@ -5,6 +5,10 @@ public class Student {
     private String studentName = "";
     private String studentSurname = "";
 
+    public Student() {
+        
+    }
+
     public Student(String code, String name, String surname) {
         setStudentCode(code);
         setStudentName(name);

@@ -4,10 +4,16 @@ public class Subject {
     private String subjectCode = "";
     private String subjectName = "";
     private int subjectCredit = 3;
-    
-    public Subject(S) {
 
+    public Subject() {
+        
     }
+    
+    public Subject(String code, String name, int credit) {
+        setSubjectCode(code);
+        setSubjectName(name);
+        setSubjectCredit(credit);
+}
 
     public void setSubjectCode(String code) {
         subjectCode = code;

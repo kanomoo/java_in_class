@@ -8,6 +8,20 @@
             "type": "java",
             "name": "ex1",
             "request": "launch",
+            "mainClass": "chapter9.test.ex1",
+            "projectName": "java_in_class_63e39e38"
+        },
+        {
+            "type": "java",
+            "name": "ex1",
+            "request": "launch",
+            "mainClass": "chapter9.ex1",
+            "projectName": "java_in_class_63e39e38"
+        },
+        {
+            "type": "java",
+            "name": "ex1",
+            "request": "launch",
             "mainClass": "chapter9.ex1",
             "projectName": "java_in_class_e93b6b8f"
         },
