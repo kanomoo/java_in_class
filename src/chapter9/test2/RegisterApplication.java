@@ -4,7 +4,10 @@ import javax.swing.JButton;
 import javax.swing.JComboBox;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
+import javax.swing.JOptionPane;
 import javax.swing.JPanel;
+import javax.swing.JScrollPane;
+import javax.swing.JTextArea;
 import javax.swing.JTextField;
 import javax.swing.border.LineBorder;
 
@@ -16,20 +19,24 @@ import java.awt.FlowLayout;
 import java.awt.event.ActionEvent;
 
 public class RegisterApplication extends JFrame implements ActionListener{
+    Register reg;
     Student std[];
     Subject sub[];
     Container container;
     JPanel panelStd, panelSub, panelResult, panelCom;
-    JComboBox comboStd, comboSub;
+    JComboBox<String> comboStd, comboSub;
     JButton addstdBtn, addsubBtn, saveBtn, cancelBtn;
     JTextField stdText;
+    JTextArea resultText;
+    JScrollPane resultPane;
     String[] stringStd, stringSub;
-    int max = 5;
+    int max = 5, count = 0;
 
     public RegisterApplication() {
-        super(">> Program Register <<");
+        super(">>> Program Register <<<");
         container = getContentPane();
         container.setLayout(new FlowLayout());
+        reg = new Register(new Student(), max);
         initStd();
         initSub();
         initGui();
@@ -66,6 +73,7 @@ public class RegisterApplication extends JFrame implements ActionListener{
         guiStd();
         guiSub();
         guiResult();
+        guiCommand();
     }
 
     public void guiStd() {
@@ -105,9 +113,67 @@ public class RegisterApplication extends JFrame implements ActionListener{
         panelResult.setLayout(new FlowLayout());
         panelResult.setPreferredSize(new Dimension(520,120));
         panelResult.setBorder(new LineBorder(Color.LIGHT_GRAY, 1));
+        resultText = new JTextArea(6,45);
+        resultText.setEditable(false);
+        resultPane = new JScrollPane(resultText);
+        panelResult.add(resultPane);
         container.add(panelResult);
     }
 
+    public void guiCommand() {
+        panelCom = new JPanel();
+        panelCom.setLayout(new FlowLayout());
+        panelCom.setPreferredSize(new Dimension(520, 40));
+        panelCom.setBorder(new LineBorder(Color.LIGHT_GRAY, 1));
+        saveBtn = new JButton("Save");
+        saveBtn.addActionListener(this);
+        saveBtn.setEnabled(false);
+        panelCom.add(saveBtn);
+        cancelBtn = new JButton("Cancel");
+        cancelBtn.addActionListener(this);
+        cancelBtn.setEnabled(false);
+        panelCom.add(cancelBtn);
+        container.add(panelCom);
+    }
+
     public void actionPerformed(ActionEvent event) {
+        if (event.getSource() == addstdBtn) {
+            int n = comboStd.getSelectedIndex();
+            stdText.setText(stringStd[n]);
+            reg.setStudent(std[n]);
+            addstdBtn.setEnabled(false);
+            addsubBtn.setEnabled(true);
+            saveBtn.setEnabled(true);
+            cancelBtn.setEnabled(true);
+        }
+        else if (event.getSource() == addsubBtn) {
+            int n = comboSub.getSelectedIndex();
+            resultText.append(stringSub[n].toString() + "\n");
+            reg.setSubject(sub[n], count);
+            count++;
+            if (count == 5) addsubBtn.setEnabled(false);
+        }
+        else if (event.getSource() == saveBtn) {
+            String output = "Student : ";
+            output += reg.getStudent() + "\n";
+            output += "Subject:\n";
+            for(int n = 0; n < count; n++ )
+                output += reg.getSubject(n) + "\n";
+            JOptionPane.showMessageDialog(this, output);
+            resetGui();
+        }
+        else if (event.getSource() == cancelBtn) {
+            resetGui();
+        }
+    }
+
+    public void resetGui() {
+        addstdBtn.setEnabled(true);
+        addsubBtn.setEnabled(false);
+        saveBtn.setEnabled(false);
+        cancelBtn.setEnabled(false);
+        stdText.setText("");
+        resultText.setText("");
+        count = 0;
     }
 }
