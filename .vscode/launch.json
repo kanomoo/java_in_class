@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "chapter9.test2.Main",
+            "projectName": "java_in_class_fa9d375a"
+        },
+        {
+            "type": "java",
+            "name": "ex1",
+            "request": "launch",
+            "mainClass": "chapter9.ex1",
+            "projectName": "java_in_class_fa9d375a"
+        },
+        {
+            "type": "java",
+            "name": "RegisterApplication",
+            "request": "launch",
+            "mainClass": "chapter9.test2.RegisterApplication",
+            "projectName": "java_in_class_fa9d375a"
+        },
+        {
+            "type": "java",
+            "name": "test",
+            "request": "launch",
+            "mainClass": "chapter3.New.test",
+            "projectName": "java_in_class_fa9d375a"
+        },
+        {
+            "type": "java",
             "name": "ex1",
             "request": "launch",
             "mainClass": "chapter9.test.ex1",
