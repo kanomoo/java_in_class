@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "exp2",
+            "request": "launch",
+            "mainClass": "chapter4.New.exp2",
+            "projectName": "java_in_class_1e51a8b7"
+        },
+        {
+            "type": "java",
+            "name": "ex5",
+            "request": "launch",
+            "mainClass": "chapter4.New.ex5",
+            "projectName": "java_in_class_1e51a8b7"
+        },
+        {
+            "type": "java",
+            "name": "ex4",
+            "request": "launch",
+            "mainClass": "chapter4.New.ex4",
+            "projectName": "java_in_class_1e51a8b7"
+        },
+        {
+            "type": "java",
+            "name": "exp1",
+            "request": "launch",
+            "mainClass": "chapter4.New.exp1",
+            "projectName": "java_in_class_1e51a8b7"
+        },
+        {
+            "type": "java",
+            "name": "ex3",
+            "request": "launch",
+            "mainClass": "chapter4.New.ex3",
+            "projectName": "java_in_class_1e51a8b7"
+        },
+        {
+            "type": "java",
+            "name": "ex2",
+            "request": "launch",
+            "mainClass": "chapter4.New.ex2",
+            "projectName": "java_in_class_1e51a8b7"
+        },
+        {
+            "type": "java",
+            "name": "ex1",
+            "request": "launch",
+            "mainClass": "chapter4.New.ex1",
+            "projectName": "java_in_class_1e51a8b7"
+        },
+        {
+            "type": "java",
             "name": "Main",
             "request": "launch",
             "mainClass": "chapter9.test3.Main",
