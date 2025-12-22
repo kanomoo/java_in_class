@@ -8,6 +8,13 @@
             "type": "java",
             "name": "Main",
             "request": "launch",
+            "mainClass": "chapter9.test3.Main",
+            "projectName": "java_in_class_e93b6b8f"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
             "mainClass": "chapter9.test2.Main",
             "projectName": "java_in_class_63e39e38"
         },
