@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "exp3",
+            "request": "launch",
+            "mainClass": "chapter4.New.exp3",
+            "projectName": "java_in_class_fa9d375a"
+        },
+        {
+            "type": "java",
             "name": "exp2",
             "request": "launch",
             "mainClass": "chapter4.New.exp2",
