@@ -9,7 +9,8 @@ public class ex9 {
         do {
             System.out.print("Enter a positive integers:");
             ++count;
-            total += num = scanner.nextInt();
+            num = scanner.nextInt();
+            total += num;
         } while (count < 5);
         System.out.println("Sum value is " + total);
         scanner.close();
