@@ -5,6 +5,20 @@
             "name": "ex1",
             "request": "launch",
             "mainClass": "chapter9.ex1",
+            "projectName": "java_in_class_63e39e38"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "chapter9.test3.Main",
+            "projectName": "java_in_class_63e39e38"
+        },
+        {
+            "type": "java",
+            "name": "ex1",
+            "request": "launch",
+            "mainClass": "chapter9.ex1",
             "projectName": "java_in_class_fa9d375a"
         }
     ]

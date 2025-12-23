@@ -1,9 +1,9 @@
 package chapter9.test3;
 
 public class Register {
-    Student std;
-    Subject[] sub;
-    int max = 3, count = 0 ;
+    private Student std;
+    private Subject[] sub;
+    private int max = 3, count = 0 ;
 
     public Register() {
         std = new Student();
@@ -32,8 +32,8 @@ public class Register {
         return std.toString();
     }
 
-    public String getSubject() {
-        return sub.toString();
+    public String getSubject(int n) {
+        return sub[n].toString();
     }
 
 }
