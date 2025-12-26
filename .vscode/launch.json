@@ -2,6 +2,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Circle1Test",
+            "request": "launch",
+            "mainClass": "chapter10.Circle1Test",
+            "projectName": "java_in_class_1e51a8b7"
+        },
+        {
+            "type": "java",
+            "name": "CircleTest",
+            "request": "launch",
+            "mainClass": "chapter10.CircleTest",
+            "projectName": "java_in_class_1e51a8b7"
+        },
+        {
+            "type": "java",
+            "name": "PointText",
+            "request": "launch",
+            "mainClass": "chapter10.PointText",
+            "projectName": "java_in_class_1e51a8b7"
+        },
+        {
+            "type": "java",
+            "name": "exp1",
+            "request": "launch",
+            "mainClass": "chapter4.New.exp1",
+            "projectName": "java_in_class_1e51a8b7"
+        },
+        {
+            "type": "java",
+            "name": "ex12",
+            "request": "launch",
+            "mainClass": "chapter3.New.ex12",
+            "projectName": "java_in_class_1e51a8b7"
+        },
+        {
+            "type": "java",
             "name": "ex2",
             "request": "launch",
             "mainClass": "chapter9.ex2",
