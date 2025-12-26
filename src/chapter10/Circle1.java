@@ -46,7 +46,6 @@ public class Circle1 extends Point1 {
     protected double radius;
 
     public Circle1() {
-        this.radius = radius;
     }
 
     public Circle1(int x, int y, double radius) {

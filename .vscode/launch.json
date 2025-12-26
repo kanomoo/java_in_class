@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CyliderTest",
+            "request": "launch",
+            "mainClass": "chapter10.CyliderTest",
+            "projectName": "java_in_class_fa9d375a"
+        },
+        {
+            "type": "java",
+            "name": "Circle2Test",
+            "request": "launch",
+            "mainClass": "chapter10.Circle2Test",
+            "projectName": "java_in_class_fa9d375a"
+        },
+        {
+            "type": "java",
             "name": "Circle1Test",
             "request": "launch",
             "mainClass": "chapter10.Circle1Test",
