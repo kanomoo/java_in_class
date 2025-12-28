@@ -12,6 +12,9 @@ public class ConstructorFinalizerTest {
     System.out.println();
     circle2 = new Circle3(5, 7, 10.67);
 
+    // เขียนเฉยๆ ไม่อยากให้ขึ้น code เหลือง
+    System.out.println("" + point + circle1 + circle2 + "\r" + " ".repeat(70));
+
     point = null; // mark for garbage collection
     circle1 = null;
     circle2 = null;
