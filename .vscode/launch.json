@@ -2,6 +2,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "test_sbt",
+            "request": "launch",
+            "mainClass": "test_sbt.test.test_sbt",
+            "projectName": "java_in_class_fa9d375a"
+        },
+        {
+            "type": "java",
+            "name": "Employee",
+            "request": "launch",
+            "mainClass": "test_sbt.Employee",
+            "projectName": "java_in_class_fa9d375a"
+        },
+        {
+            "type": "java",
+            "name": "AppReadWriteFile",
+            "request": "launch",
+            "mainClass": "chapter11.AppReadWriteFile",
+            "projectName": "java_in_class_fa9d375a"
+        },
+        {
+            "type": "java",
+            "name": "AppProduct",
+            "request": "launch",
+            "mainClass": "chapter11.AppProduct",
+            "projectName": "java_in_class_fa9d375a"
+        },
+        {
+            "type": "java",
+            "name": "test",
+            "request": "launch",
+            "mainClass": "project.test",
+            "projectName": "java_in_class_fa9d375a"
+        },
+        {
+            "type": "java",
             "name": "AppProduct",
             "request": "launch",
             "mainClass": "chapter11.AppProduct",
