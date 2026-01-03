@@ -2,9 +2,9 @@
     "configurations": [
         {
             "type": "java",
-            "name": "test_sbt",
+            "name": "PrimeNumber",
             "request": "launch",
-            "mainClass": "test_sbt.test.test_sbt",
+            "mainClass": "test_sbt.PrimeNumber",
             "projectName": "java_in_class_fa9d375a"
         },
         {
@@ -16,121 +16,9 @@
         },
         {
             "type": "java",
-            "name": "AppReadWriteFile",
+            "name": "test_sbt",
             "request": "launch",
-            "mainClass": "chapter11.AppReadWriteFile",
-            "projectName": "java_in_class_fa9d375a"
-        },
-        {
-            "type": "java",
-            "name": "AppProduct",
-            "request": "launch",
-            "mainClass": "chapter11.AppProduct",
-            "projectName": "java_in_class_fa9d375a"
-        },
-        {
-            "type": "java",
-            "name": "test",
-            "request": "launch",
-            "mainClass": "project.test",
-            "projectName": "java_in_class_fa9d375a"
-        },
-        {
-            "type": "java",
-            "name": "AppProduct",
-            "request": "launch",
-            "mainClass": "chapter11.AppProduct",
-            "projectName": "java_in_class_63e39e38"
-        },
-        {
-            "type": "java",
-            "name": "AppReadWriteFile",
-            "request": "launch",
-            "mainClass": "chapter11.AppReadWriteFile",
-            "projectName": "java_in_class_63e39e38"
-        },
-        {
-            "type": "java",
-            "name": "ConstructorFinalizerTest",
-            "request": "launch",
-            "mainClass": "chapter10.ConstructorFinalizerTest",
-            "projectName": "java_in_class_63e39e38"
-        },
-        {
-            "type": "java",
-            "name": "CyliderTest",
-            "request": "launch",
-            "mainClass": "chapter10.CyliderTest",
-            "projectName": "java_in_class_fa9d375a"
-        },
-        {
-            "type": "java",
-            "name": "Circle2Test",
-            "request": "launch",
-            "mainClass": "chapter10.Circle2Test",
-            "projectName": "java_in_class_fa9d375a"
-        },
-        {
-            "type": "java",
-            "name": "Circle1Test",
-            "request": "launch",
-            "mainClass": "chapter10.Circle1Test",
-            "projectName": "java_in_class_1e51a8b7"
-        },
-        {
-            "type": "java",
-            "name": "CircleTest",
-            "request": "launch",
-            "mainClass": "chapter10.CircleTest",
-            "projectName": "java_in_class_1e51a8b7"
-        },
-        {
-            "type": "java",
-            "name": "PointText",
-            "request": "launch",
-            "mainClass": "chapter10.PointText",
-            "projectName": "java_in_class_1e51a8b7"
-        },
-        {
-            "type": "java",
-            "name": "exp1",
-            "request": "launch",
-            "mainClass": "chapter4.New.exp1",
-            "projectName": "java_in_class_1e51a8b7"
-        },
-        {
-            "type": "java",
-            "name": "ex12",
-            "request": "launch",
-            "mainClass": "chapter3.New.ex12",
-            "projectName": "java_in_class_1e51a8b7"
-        },
-        {
-            "type": "java",
-            "name": "ex2",
-            "request": "launch",
-            "mainClass": "chapter9.ex2",
-            "projectName": "java_in_class_63e39e38"
-        },
-        {
-            "type": "java",
-            "name": "ex1",
-            "request": "launch",
-            "mainClass": "chapter9.ex1",
-            "projectName": "java_in_class_63e39e38"
-        },
-        {
-            "type": "java",
-            "name": "Main",
-            "request": "launch",
-            "mainClass": "chapter9.test3.Main",
-            "projectName": "java_in_class_63e39e38"
-        },
-        {
-            "type": "java",
-            "name": "ex1",
-            "request": "launch",
-            "mainClass": "chapter9.ex1",
+            "mainClass": "test_sbt.test.test_sbt",
             "projectName": "java_in_class_fa9d375a"
         }
     ]

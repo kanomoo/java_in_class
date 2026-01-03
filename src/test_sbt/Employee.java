@@ -60,14 +60,15 @@ public class Employee extends JFrame implements ActionListener{
     }
 
     public void initOut() {
-        outputArea = new JTextArea(5,20);
+        outputArea = new JTextArea(6,20);
         container.add(outputArea);
     }
 
     @Override
     public void actionPerformed(ActionEvent event) {
         String output = "";
-        int total = 0, rate = 0;
+        double total = 0, rate = 0;
+        double ex = 0, bonus;
         if (event.getSource() == calBtn) {
             if (!textName.getText().isEmpty() && !textHours.getText().isEmpty()){
                 int n = comboEmp.getSelectedIndex();
@@ -78,9 +79,18 @@ public class Employee extends JFrame implements ActionListener{
                 if (n == 0) rate = 100;
                 else if (n == 1) rate = 200;
                 else if (n == 2) rate = 300;
-                total = hours * rate;
+                if (hours >= 160) {
+                    ex = hours - 160;
+                    bonus = (ex * 1.5) * rate;
+                    total = ((160 * rate) + (bonus));
+                    output += "\nHours exceeded: " + (int) ex + " hours";
+                    output += "\nBonus: " + fmt.format(bonus) + " THB";
+                }
+                else total = hours * rate;
                 output += "\nTotal salary: " + fmt.format(total) + " THB";
                 outputArea.setText(output);
+                textName.setText("");
+                textHours.setText("");
             }
             else {
                 JOptionPane.showMessageDialog(this, "Not Calculate", "Error Message", JOptionPane.ERROR_MESSAGE);
@@ -97,4 +107,3 @@ public class Employee extends JFrame implements ActionListener{
         new Employee();
     }
 }
-

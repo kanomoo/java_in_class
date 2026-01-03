@@ -1,4 +1,4 @@
-3package test_sbt.test;
+package test_sbt.test;
 
 import java.util.Scanner;
 
@@ -14,6 +14,7 @@ public class test_sbt{
         rate = input.nextFloat();
         wage = (hour <= 40 ) ? (hour * rate) : ((40 * rate) + ((hour - 40 ) *1.5f *rate));
         System.out.println("Employee get wage : " + wage);
+        input.close();
     }
         
     }
