@@ -2,6 +2,90 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ex5",
+            "request": "launch",
+            "mainClass": "chapter5.New.ex5",
+            "projectName": "java_in_class_1e51a8b7"
+        },
+        {
+            "type": "java",
+            "name": "ex4",
+            "request": "launch",
+            "mainClass": "chapter5.New.ex4",
+            "projectName": "java_in_class_1e51a8b7"
+        },
+        {
+            "type": "java",
+            "name": "test",
+            "request": "launch",
+            "mainClass": "chapter5.New.test",
+            "projectName": "java_in_class_1e51a8b7"
+        },
+        {
+            "type": "java",
+            "name": "ex3",
+            "request": "launch",
+            "mainClass": "chapter5.New.ex3",
+            "projectName": "java_in_class_1e51a8b7"
+        },
+        {
+            "type": "java",
+            "name": "ex2",
+            "request": "launch",
+            "mainClass": "chapter5.New.ex2",
+            "projectName": "java_in_class_1e51a8b7"
+        },
+        {
+            "type": "java",
+            "name": "ex1",
+            "request": "launch",
+            "mainClass": "chapter5.New.ex1",
+            "projectName": "java_in_class_1e51a8b7"
+        },
+        {
+            "type": "java",
+            "name": "Employee",
+            "request": "launch",
+            "mainClass": "test_sbt.Employee",
+            "projectName": "java_in_class_1e51a8b7"
+        },
+        {
+            "type": "java",
+            "name": "exp3",
+            "request": "launch",
+            "mainClass": "chapter4.New.exp3",
+            "projectName": "java_in_class_1e51a8b7"
+        },
+        {
+            "type": "java",
+            "name": "PrimeNumber",
+            "request": "launch",
+            "mainClass": "test_sbt.PrimeNumber",
+            "projectName": "java_in_class_1e51a8b7"
+        },
+        {
+            "type": "java",
+            "name": "ex8",
+            "request": "launch",
+            "mainClass": "chapter4.New.ex8",
+            "projectName": "java_in_class_1e51a8b7"
+        },
+        {
+            "type": "java",
+            "name": "ex7",
+            "request": "launch",
+            "mainClass": "chapter4.New.ex7",
+            "projectName": "java_in_class_1e51a8b7"
+        },
+        {
+            "type": "java",
+            "name": "ex6",
+            "request": "launch",
+            "mainClass": "chapter4.New.ex6",
+            "projectName": "java_in_class_1e51a8b7"
+        },
+        {
+            "type": "java",
             "name": "PrimeNumber",
             "request": "launch",
             "mainClass": "test_sbt.PrimeNumber",
