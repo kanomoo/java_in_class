@@ -43,7 +43,6 @@ public class PrimeNumber extends JFrame implements ActionListener {
         container.add(textEnd);
         searchBtn = new JButton("search");
         searchBtn.addActionListener(this);
-        ;
         container.add(searchBtn);
         clearBtn = new JButton("Clear data");
         clearBtn.addActionListener(this);
