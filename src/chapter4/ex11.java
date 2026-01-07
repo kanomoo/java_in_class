@@ -106,8 +106,10 @@ public class ex11 {
                         int num = Integer.parseInt(numStr);
                         String prime = "is Prime Number";
                         for (int i = 2; i <= num / 2; i++) {
-                            if (num % i == 0) prime = "is Not Prime Number";
-                            break;
+                            if (num % i == 0) {
+                                prime = "is Not Prime Number";
+                                break;
+                            }
                         }
                         JOptionPane.showMessageDialog(null, numStr + " " + prime, "Message", JOptionPane.INFORMATION_MESSAGE);
                     } else JOptionPane.showMessageDialog(null, "Input is emptry", "Message", JOptionPane.WARNING_MESSAGE);
