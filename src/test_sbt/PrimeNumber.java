@@ -54,34 +54,39 @@ public class PrimeNumber extends JFrame implements ActionListener {
     public void checkPrime(String output, int start, int end) {
         int count = 0;
         boolean firstLine = true;
-        for (int i = start; i <= end; i++) {
-            String stringPrime = i + "";
-            String comma = (i == start ? " " : ", ");
-            boolean PrimeNumber = true;
-            for (int n = 2; n <= (i / 2); n++) {
-                if (i % n == 0) {
-                    stringPrime = "";
-                    PrimeNumber = false;
-                    break;
-                } 
-                else {
-                    if (n == (i /2)) {
-                        if (PrimeNumber == true) {
-                            count++ ;
-                            if (count == 6 && firstLine) {
-                                comma = "\n";
-                                count = 0 ; 
-                                firstLine = false;
-                            }
-                            else if (count == 9) {
-                                count = 0 ; comma = "\n";
+        if (start >= 2 && end >= 2) {
+            for (int i = start; i <= end; i++) {
+                String stringPrime = i + "";
+                String comma = (i == start ? " " : ", ");
+                boolean PrimeNumber = true;
+                for (int n = 2; n <= (i / 2); n++) {
+                    if (i % n == 0) {
+                        stringPrime = "";
+                        PrimeNumber = false;
+                        break;
+                    } 
+                    else {
+                        if (n == (i /2)) {
+                            if (PrimeNumber == true) {
+                                count++ ;
+                                if (count == 6 && firstLine) {
+                                    comma = "\n";
+                                    count = 0 ; 
+                                    firstLine = false;
+                                }
+                                else if (count == 9) {
+                                    count = 0 ; comma = "\n";
+                                }
                             }
                         }
+                        stringPrime = comma + i;
                     }
-                    stringPrime = comma + i;
                 }
+                output += stringPrime;
             }
-            output += stringPrime;
+        }
+        else {
+            output += "\nThere are no special numbers \nin this range.";
         }
         outputArea.setText(output);
     }
@@ -93,7 +98,11 @@ public class PrimeNumber extends JFrame implements ActionListener {
             int numEnd = Integer.parseInt(textEnd.getText());
             String output = "Number range: " + numStart + " to " + numEnd + "\nPrime numbers: ";
             checkPrime(output, numStart, numEnd);
-
+        } 
+        else if (event.getSource() == clearBtn) {
+            textStart.setText("");
+            textEnd.setText("");
+            outputArea.setText("");
         }
     }
 
