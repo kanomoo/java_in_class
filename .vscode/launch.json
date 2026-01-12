@@ -2,13 +2,6 @@
     "configurations": [
         {
             "type": "java",
-            "name": "Car_Installment",
-            "request": "launch",
-            "mainClass": "chapter5.test_ex.Car_Installment",
-            "projectName": "java_in_class_63e39e38"
-        },
-        {
-            "type": "java",
             "name": "PrimeNumber",
             "request": "launch",
             "mainClass": "test_sbt.PrimeNumber",
