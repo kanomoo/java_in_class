@@ -45,7 +45,7 @@ public class CalculateExponents extends JFrame implements ActionListener {
         calBtn.addActionListener(this);
         panelBtn.add(calBtn);
         clearBtn = new JButton("Clear results");
-        clearBtn.addActionListener(this);;
+        clearBtn.addActionListener(this);
         panelBtn.add(clearBtn);
         container.add(panelBtn);
     }

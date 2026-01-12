@@ -58,16 +58,16 @@ public class PrimeNumber extends JFrame implements ActionListener {
             for (int i = start; i <= end; i++) {
                 String stringPrime = i + "";
                 String comma = (i == start ? " " : ", ");
-                boolean PrimeNumber = true;
+                boolean isPrimeNumber = true;
                 for (int n = 2; n <= (i / 2); n++) {
                     if (i % n == 0) {
                         stringPrime = "";
-                        PrimeNumber = false;
+                        isPrimeNumber = false;
                         break;
                     } 
                     else {
                         if (n == (i /2)) {
-                            if (PrimeNumber == true) {
+                            if (isPrimeNumber == true) {
                                 count++ ;
                                 if (count == 6 && firstLine) {
                                     comma = "\n";
@@ -86,7 +86,7 @@ public class PrimeNumber extends JFrame implements ActionListener {
             }
         }
         else {
-            output += "\nThere are no special numbers \nin this range.";
+            output += "\nThere are no prime numbers \nin this range.";
         }
         outputArea.setText(output);
     }
