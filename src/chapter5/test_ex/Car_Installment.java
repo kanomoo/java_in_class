@@ -114,7 +114,7 @@
 //                     break;
 
 //                 case "3":
-//                     System.out.print("Ener interest rate(%) per year : ");
+//                     System.out.print("Enter interest rate(%) per year : ");
 //                     setInterestRate(scanner.nextDouble());
 //                     break;
 
@@ -196,7 +196,7 @@ public class Car_Installment {
                     System.out.print("Enter down payment(%) : "); downPayment = (scanner.nextDouble()); break;
 
                 case "3":
-                    System.out.print("Ener interest rate(%) per year : "); interestRate = (scanner.nextDouble()); break;
+                    System.out.print("Enter interest rate(%) per year : "); interestRate = (scanner.nextDouble()); break;
 
                 case "4":
                     System.out.print("Enter month : "); month = (scanner.nextInt()); break;
