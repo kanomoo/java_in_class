@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Car_Installment",
+            "request": "launch",
+            "mainClass": "chapter5.text_ex2.Car_Installment",
+            "projectName": "java_in_class_1e51a8b7"
+        },
+        {
+            "type": "java",
             "name": "Car_Installmenti",
             "request": "launch",
             "mainClass": "chapter5.text_ex2.Car_Installmenti",
