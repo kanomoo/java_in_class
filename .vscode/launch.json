@@ -5,6 +5,48 @@
             "name": "ex10",
             "request": "launch",
             "mainClass": "chapter5.ex10",
+            "projectName": "java_in_class_1e51a8b7"
+        },
+        {
+            "type": "java",
+            "name": "ex11",
+            "request": "launch",
+            "mainClass": "chapter5.New.ex11",
+            "projectName": "java_in_class_1e51a8b7"
+        },
+        {
+            "type": "java",
+            "name": "ex9",
+            "request": "launch",
+            "mainClass": "chapter5.New.ex9",
+            "projectName": "java_in_class_1e51a8b7"
+        },
+        {
+            "type": "java",
+            "name": "ex8",
+            "request": "launch",
+            "mainClass": "chapter5.New.ex8",
+            "projectName": "java_in_class_1e51a8b7"
+        },
+        {
+            "type": "java",
+            "name": "ex7",
+            "request": "launch",
+            "mainClass": "chapter5.New.ex7",
+            "projectName": "java_in_class_1e51a8b7"
+        },
+        {
+            "type": "java",
+            "name": "ex6",
+            "request": "launch",
+            "mainClass": "chapter5.New.ex6",
+            "projectName": "java_in_class_1e51a8b7"
+        },
+        {
+            "type": "java",
+            "name": "ex10",
+            "request": "launch",
+            "mainClass": "chapter5.ex10",
             "projectName": "java_in_class_63e39e38"
         },
         {
