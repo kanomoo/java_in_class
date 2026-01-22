@@ -1,12 +1,10 @@
 package test_sbt.test_old_ass.ass3;
 
 import java.util.Scanner;
-import javax.swing.JTextArea;
 
 public class ass3_02 {
     String grade;
     Scanner scanner = new Scanner(System.in);
-    JTextArea outputArea;
     public void start() {
         System.out.println("=".repeat(30) + "\n>>  Program Calculate Grade <<\n" + "=".repeat(30) + "\nInput Data: ");
         String output = String.format("%37s", "Grade Report\n");
