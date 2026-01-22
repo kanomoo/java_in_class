@@ -2,6 +2,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Triangle",
+            "request": "launch",
+            "mainClass": "test_sbt.test_old_ass.com.Triangle",
+            "projectName": "java_in_class_63e39e38"
+        },
+        {
+            "type": "java",
+            "name": "test",
+            "request": "launch",
+            "mainClass": "project.test",
+            "projectName": "java_in_class_63e39e38"
+        },
+        {
+            "type": "java",
+            "name": "ex3",
+            "request": "launch",
+            "mainClass": "chapter5.ex3",
+            "projectName": "java_in_class_63e39e38"
+        },
+        {
+            "type": "java",
+            "name": "ex6",
+            "request": "launch",
+            "mainClass": "chapter5.ex6",
+            "projectName": "java_in_class_63e39e38"
+        },
+        {
+            "type": "java",
+            "name": "ex7",
+            "request": "launch",
+            "mainClass": "chapter5.ex7",
+            "projectName": "java_in_class_63e39e38"
+        },
+        {
+            "type": "java",
             "name": "Ass3_04",
             "request": "launch",
             "mainClass": "Ass3.Ass3_04",

@@ -74,7 +74,7 @@ class Sale {
 	String toCsv(){
 		StringBuilder sb = new StringBuilder();
 		sb.append(id).append(",").append(customerId).append(",").append(date.toString()).append(",")
-		  .append(String.format(Locale.US,"%.2f", total())).append(",");
+		.append(String.format(Locale.US,"%.2f", total())).append(",");
 		List<String> toks = new ArrayList<>();
 		for(SaleItem it:items) toks.add(it.toCsv());
 		sb.append(String.join("|", toks));
