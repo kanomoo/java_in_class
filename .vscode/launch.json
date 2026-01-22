@@ -2,6 +2,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Ass3_02",
+            "request": "launch",
+            "mainClass": "Ass3.Ass3_02",
+            "projectName": "java_in_class_63e39e38"
+        },
+        {
+            "type": "java",
+            "name": "Ass3_03",
+            "request": "launch",
+            "mainClass": "Ass3.Ass3_03",
+            "projectName": "java_in_class_63e39e38"
+        },
+        {
+            "type": "java",
+            "name": "Ass2_04",
+            "request": "launch",
+            "mainClass": "Ass2.Ass2_04",
+            "projectName": "java_in_class_63e39e38"
+        },
+        {
+            "type": "java",
+            "name": "Ass2_03",
+            "request": "launch",
+            "mainClass": "Ass2.Ass2_03",
+            "projectName": "java_in_class_63e39e38"
+        },
+        {
+            "type": "java",
+            "name": "Ass2_02",
+            "request": "launch",
+            "mainClass": "Ass2.Ass2_02",
+            "projectName": "java_in_class_63e39e38"
+        },
+        {
+            "type": "java",
+            "name": "Ass2_01",
+            "request": "launch",
+            "mainClass": "Ass2.Ass2_01",
+            "projectName": "java_in_class_63e39e38"
+        },
+        {
+            "type": "java",
             "name": "ass3_03",
             "request": "launch",
             "mainClass": "test_sbt.test_old_ass.ass3.ass3_03",
