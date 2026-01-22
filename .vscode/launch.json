@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ass3_03",
+            "request": "launch",
+            "mainClass": "test_sbt.test_old_ass.ass3.ass3_03",
+            "projectName": "java_in_class_63e39e38"
+        },
+        {
+            "type": "java",
             "name": "ass3_02",
             "request": "launch",
             "mainClass": "test_sbt.test_old_ass.ass3.ass3_02",
