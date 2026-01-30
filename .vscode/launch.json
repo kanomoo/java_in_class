@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ex3",
+            "request": "launch",
+            "mainClass": "chapter6.New.ex3",
+            "projectName": "java_in_class_9f6bbd82"
+        },
+        {
+            "type": "java",
+            "name": "ex2",
+            "request": "launch",
+            "mainClass": "chapter6.New.ex2",
+            "projectName": "java_in_class_9f6bbd82"
+        },
+        {
+            "type": "java",
             "name": "ex1",
             "request": "launch",
             "mainClass": "chapter6.New.ex1",
