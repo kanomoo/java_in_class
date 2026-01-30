@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Gpa_6806021612036",
+            "request": "launch",
+            "mainClass": "Midterm.Gpa_6806021612036",
+            "projectName": "java_in_class_63e39e38"
+        },
+        {
+            "type": "java",
             "name": "ex6",
             "request": "launch",
             "mainClass": "chapter6.New.ex6",
