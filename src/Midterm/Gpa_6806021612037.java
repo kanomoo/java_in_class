@@ -2,7 +2,7 @@ package Midterm;
 
 import java.util.Scanner;
 
-public class Gpa_6806021612036 {
+public class Gpa_6806021612037 {
     Scanner scanner = new Scanner(System.in);
     String showOutput, grade, input;
     double point = 0, a_point = 0, totalCredit = 0, totalPoint = 0;
@@ -75,7 +75,7 @@ public class Gpa_6806021612036 {
     }
 
     public static void main(String[] args) {
-        new Gpa_6806021612036().gpaMain();
+        new Gpa_6806021612037().gpaMain();
     }
 }
 
@@ -85,7 +85,7 @@ public class Gpa_6806021612036 {
 
 // import java.util.Scanner;
 
-// public class Gpa_6806021612036 {
+// public class Gpa_6806021612037 {
 //     Scanner scanner = new Scanner(System.in);
 //     String output;
 //     double point = 0, a_point = 0, totalCredit = 0, totalPoint = 0;
@@ -137,6 +137,6 @@ public class Gpa_6806021612036 {
 //     }
 
 //     public static void main(String[] args) {
-//         new Gpa_6806021612036().gpaMain();
+//         new Gpa_6806021612037().gpaMain();
 //     }
 // }
