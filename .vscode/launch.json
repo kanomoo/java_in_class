@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ex1",
+            "request": "launch",
+            "mainClass": "chapter6.New.ex1",
+            "projectName": "java_in_class_9f6bbd82"
+        },
+        {
+            "type": "java",
             "name": "Triangle",
             "request": "launch",
             "mainClass": "test_sbt.test_old_ass.com.Triangle",
