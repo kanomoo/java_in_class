@@ -1,7 +1,5 @@
 package chapter6.New;
 
-import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Random;
 
 import javax.swing.JOptionPane;
