@@ -5,25 +5,34 @@ import javax.swing.JTextArea;
 
 public class ex6 {
     JTextArea outputArea;
-    int[] num = {2, 6, 4, 8, 10, 12, 89, 68, 45, 37};
+    int[] num = { 2, 6, 4, 8, 10, 12, 89, 68, 45, 37 };
+
     public void mainProgram() {
         String output = "Data items in original order\n      ";
-        for (int i : num) output += i + "    ";
+        for (int i : num)
+            output += i + "    ";
 
         bubbleSort(num);
         output += "\n\nData items in original order\n      ";
-        for (int i : num) output += i + "    ";
+        for (int i : num)
+            output += i + "    ";
 
         outputArea = new JTextArea(output);
         JOptionPane.showMessageDialog(null, outputArea);
     }
 
     public void bubbleSort(int array[]) {
-        for (int l = 0; l < array.length; l++) {
+        boolean done = true;
+        for (int l = 1; l < array.length; l++) {
+            done = true; // เช็คถ้าไม่มีการ swap ให้หยุด
             for (int i = 0; i < (array.length - 1); i++) {
-                if (array[i] > array[i + 1])
+                if (array[i] > array[i + 1]) {
                     swap(array, i, i + 1);
+                    done = false;
+                }
             }
+            System.out.println(l);
+            if (done) break;
         }
     }
 
