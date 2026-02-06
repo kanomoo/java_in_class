@@ -84,27 +84,33 @@
 
 package chapter6.New;
 
+import java.text.DecimalFormat;
 import java.util.Random;
 
+import javax.swing.JOptionPane;
+
 public class ex8 {
-    int sum = 0;
+    DecimalFormat twoDigits = new DecimalFormat("00");
+    Random rnd = new Random();
+    int[] array = new int[30];
+    String output = "Potions of array searched\n";
+
 
     public ex8() {
-        Random rnd = new Random();
-        int[] array = new int[100];
-        for (int i = 0; i < array.length; i++)
-            array[i] = rnd.nextInt(101);
-        for (int l : array)
-            System.out.print(l + ", ");
-        System.out.println("\n");
+        for (int i = 0; i < array.length; i++) array[i] = rnd.nextInt(101);
         bubbleSort(array);
-        for (int l : array)
-            System.out.print(l + "  ");
-        System.out.println("\n\n" + sum);
+        while (true) {
+            String num = JOptionPane.showInputDialog("Enter number to search(-1 : exit)");
+            if (num.equals("-1")) System.exit(0);
+            else if (num == null) {}
+            else { 
+            }
+        }
+        
     }
 
+
     public void bubbleSort(int array[]) {
-        sum = 0;
         boolean done = true;
         for (int l = 1; l < array.length; l++) {
             done = true;
@@ -114,7 +120,6 @@ public class ex8 {
                     done = false;
                 }
             }
-            sum++;
             if (done)
                 break;
         }
@@ -126,7 +131,11 @@ public class ex8 {
         array[second] = hold;
     }
 
-    public void binarySearch() {
+    public void binarySearch(int num) {
+        
+    }
+
+    public void buildOutput(int first, int mid, int last) {
 
     }
 
