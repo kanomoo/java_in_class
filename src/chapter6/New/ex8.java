@@ -186,7 +186,7 @@ public class ex8 {
     public void MainProgram() {
         for (int i = 0; i < array.length; i++) array[i] = rnd.nextInt(100);
         bubbleSort();
-        for (int l : array) System.out.print(l + "  ");
+        // for (int l : array) System.out.print(l + "  ");
         while (true) {
             num = JOptionPane.showInputDialog("Enter number binary search(-1 : Exit): ");
             if (num == null) {JOptionPane.showMessageDialog(null, "Exit Program..."); System.exit(0);}
