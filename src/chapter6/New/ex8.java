@@ -93,7 +93,7 @@ public class ex8 {
     DecimalFormat twoDigits = new DecimalFormat("00");
     Random rnd = new Random();
     int[] array = new int[30];
-    String output = "Potions of array searched\n";
+    String output;
 
 
     public ex8() {
@@ -101,12 +101,10 @@ public class ex8 {
         bubbleSort(array);
         while (true) {
             String num = JOptionPane.showInputDialog("Enter number to search(-1 : exit)");
-            if (num.equals("-1")) System.exit(0);
-            else if (num == null) {}
-            else { 
-            }
+            if (num == null) {JOptionPane.showMessageDialog(null, "Exit Program..", "Message", JOptionPane.INFORMATION_MESSAGE); System.exit(0);}
+            else if (num.equals("-1")) System.exit(0);
+            else binarySearch(Integer.parseInt(num));
         }
-        
     }
 
 
@@ -132,10 +130,28 @@ public class ex8 {
     }
 
     public void binarySearch(int num) {
-        
+        int low = 0, height = array.length, mid = (low + height) / 2;
+        output = "Potions of array searched\n";
+        while (low <= height) {
+            buildOutput(low, mid, height, num);
+            if (num > array[mid]) low = mid + 1;
+            else if (num < array[mid]) height = mid - 1;
+            else break;
+            mid = (low + height) / 2;
+            // System.out.println(low + " " + height);
+        }
+        output += (num == array[mid]) ? "\nValue = " + array[mid] : "\nValue not found";
+        JOptionPane.showMessageDialog(null, output);
+
     }
 
-    public void buildOutput(int first, int mid, int last) {
+    public void buildOutput(int low, int mid, int height, int num) {
+        for (int i = 0; i < array.length; i++) {
+            if (i == mid) output += array[i] + "* ";
+            else if (i >= low && i <= height) output += array[i] + "  ";
+            else output += "    ";
+        }
+        output += "\n";
 
     }
 
