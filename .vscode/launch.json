@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CalculateExponents",
+            "request": "launch",
+            "mainClass": "test_sbt.CalculateExponents",
+            "projectName": "java_in_class_fa9d375a"
+        },
+        {
+            "type": "java",
             "name": "ex8",
             "request": "launch",
             "mainClass": "chapter6.New.ex8",
