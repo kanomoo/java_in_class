@@ -2,6 +2,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "chapter7.New.App",
+            "projectName": "java_in_class_9f6bbd82"
+        },
+        {
+            "type": "java",
+            "name": "Assign05_6806021612037",
+            "request": "launch",
+            "mainClass": "chapter6.New.Assign05_6806021612037",
+            "projectName": "java_in_class_9f6bbd82"
+        },
+        {
+            "type": "java",
+            "name": "ex10",
+            "request": "launch",
+            "mainClass": "chapter6.New.ex10",
+            "projectName": "java_in_class_9f6bbd82"
+        },
+        {
+            "type": "java",
+            "name": "ex9",
+            "request": "launch",
+            "mainClass": "chapter6.New.ex9",
+            "projectName": "java_in_class_9f6bbd82"
+        },
+        {
+            "type": "java",
             "name": "CalculateExponents",
             "request": "launch",
             "mainClass": "test_sbt.CalculateExponents",
