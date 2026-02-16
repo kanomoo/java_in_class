@@ -2,6 +2,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ex3",
+            "request": "launch",
+            "mainClass": "chapter9.New.ex3",
+            "projectName": "java_in_class_1eec5f7e"
+        },
+        {
+            "type": "java",
+            "name": "ex2",
+            "request": "launch",
+            "mainClass": "chapter9.New.ex2",
+            "projectName": "java_in_class_1eec5f7e"
+        },
+        {
+            "type": "java",
+            "name": "ex1",
+            "request": "launch",
+            "mainClass": "chapter9.New.ex1",
+            "projectName": "java_in_class_1eec5f7e"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "chapter8.New.App",
+            "projectName": "java_in_class_1eec5f7e"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "chapter7.New.App",
+            "projectName": "java_in_class_1eec5f7e"
+        },
+        {
+            "type": "java",
             "name": "App",
             "request": "launch",
             "mainClass": "chapter7.New.App",
