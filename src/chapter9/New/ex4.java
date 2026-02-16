@@ -8,6 +8,7 @@ import java.awt.Font;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
+import javax.swing.ButtonGroup;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
@@ -31,6 +32,7 @@ class WindowsFlowLayout extends JFrame implements ActionListener{
     JPanel panel1, panel2;
     JRadioButton radioButton1, radioButton2;
     JButton btn1, btn2;
+    ButtonGroup group;
     JTextArea outputArea;
     JScrollPane scrollPane;
     Font font = new Font("Tahoma",Font.BOLD,16);
@@ -78,15 +80,16 @@ class WindowsFlowLayout extends JFrame implements ActionListener{
         panel2.setLayout(new FlowLayout());
         panel2.setPreferredSize(new Dimension(300,70));
         panel2.setBorder(new LineBorder(Color.BLUE, 2));
+        group = new ButtonGroup();
         createLabel(panel2, label3, "Select Sex : ");
-        createRadioButton(radioButton1,"Male");
-        createRadioButton(radioButton2, "Female");
+        radioButton1 = createRadioButton("Male");
+        radioButton2 = createRadioButton("Female");
         c.add(panel2);
     }
 
     public void initButton() {
         btn1 = createBtn("OK");
-        btn2 = createBtn("Cancle");
+        btn2 = createBtn("Cancel");
     }
 
     public void initTextArea() {
@@ -110,10 +113,13 @@ class WindowsFlowLayout extends JFrame implements ActionListener{
         return text;
     }
 
-    public void createRadioButton(JRadioButton btn, String title) {
-        btn = new JRadioButton(title);
+    public JRadioButton createRadioButton(String title) {
+        JRadioButton btn = new JRadioButton(title);
         btn.setFont(font);
+        btn.addActionListener(this);
+        group.add(btn);
         panel2.add(btn);
+        return btn;
     }
 
     public JButton createBtn(String title) {
