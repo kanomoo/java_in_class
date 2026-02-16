@@ -72,15 +72,18 @@ class MyWindow {
 
         panel1 = new JPanel();
         panel1.setLayout(new FlowLayout());
-        panel1.setPreferredSize(new Dimension(200,100));
+        panel1.setPreferredSize(new Dimension(300,120));
         panel1.setBorder(new LineBorder(Color.RED, 2));
 
         panel2 = new JPanel();
         panel2.setLayout(new FlowLayout());
-        panel2.setPreferredSize(new Dimension(200,100));
-        panel2.setBorder(new LineBorder(Color.RED, 2));
+        panel2.setPreferredSize(new Dimension(300,120));
+        panel2.setBorder(new LineBorder(Color.BLUE, 2));
 
-        window.setSize(500,200);
+        c.add(panel1);
+        c.add(panel2);
+
+        window.setSize(500,300);
         window.setVisible(true);
         window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         window.setResizable(false);
