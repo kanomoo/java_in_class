@@ -5,6 +5,13 @@
             "name": "ex4",
             "request": "launch",
             "mainClass": "chapter9.New.ex4",
+            "projectName": "java_in_class_63e39e38"
+        },
+        {
+            "type": "java",
+            "name": "ex4",
+            "request": "launch",
+            "mainClass": "chapter9.New.ex4",
             "projectName": "java_in_class_fa9d375a"
         },
         {
