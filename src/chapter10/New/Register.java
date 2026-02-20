@@ -11,7 +11,9 @@ public class Register {
     }
 
     public Register(Student std, int n) {
-        
+        this.std = std;
+        max = n;
+        sub = new Subject[max];
     }
 
     public void setStudent(Student std) {
@@ -19,9 +21,10 @@ public class Register {
     }
 
     public void setSubject(Subject sub) {
+
         if (count < max) {
-            this.sub[count] = sub;
             ++count;
+            this.sub[count] = sub;
         }
     }
 
@@ -33,7 +36,7 @@ public class Register {
         return std.toString();
     }
 
-    public String getSubject() {
-        return sub.toString();
+    public String getSubject(int n) {
+        return sub[n].toString();
     }
 }

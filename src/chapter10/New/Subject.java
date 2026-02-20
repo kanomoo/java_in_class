@@ -41,8 +41,7 @@ public class Subject {
 
     @Override
     public String toString() {
-        return "Subject [subjectCode=" + subjectCode + ", subjectName=" + subjectName + ", subjectCredit="
-                + subjectCredit + "]";
+        return subjectCode + " " + subjectName + " " + subjectCredit + "                 ";
     }
 
 }

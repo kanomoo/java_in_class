@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ex1",
+            "request": "launch",
+            "mainClass": "chapter9.ex1",
+            "projectName": "java_in_class_63e39e38"
+        },
+        {
+            "type": "java",
+            "name": "RegisterApplication",
+            "request": "launch",
+            "mainClass": "chapter10.New.RegisterApplication",
+            "projectName": "java_in_class_63e39e38"
+        },
+        {
+            "type": "java",
             "name": "RegisterApplication",
             "request": "launch",
             "mainClass": "chapter10.New.RegisterApplication",
