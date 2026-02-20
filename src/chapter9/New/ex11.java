@@ -27,6 +27,7 @@ class MyCalculator extends JFrame implements ActionListener {
     JButton[] btn;
     JTextField textResult;
     Font font = new Font("Tahoma", Font.BOLD, 18);
+    String output = "";
 
     public MyCalculator() {
         super("My Calculator");
@@ -40,7 +41,6 @@ class MyCalculator extends JFrame implements ActionListener {
         c.setLayout(new FlowLayout(FlowLayout.CENTER, 10, 10));
         initPanel1();
         initPanel2();
-
     }
 
     public void initPanel1() {
@@ -73,6 +73,22 @@ class MyCalculator extends JFrame implements ActionListener {
 
     @Override
     public void actionPerformed(ActionEvent event) {
-
+        boolean point = false;
+        if (event.getSource() == btn[0]) output += btn[0].getText().trim();
+        if (event.getSource() == btn[1])  output += btn[1].getText().trim();
+        if (event.getSource() == btn[2]) output += btn[2].getText().trim();
+        if (event.getSource() == btn[3]) output += btn[3].getText().trim();
+        if (event.getSource() == btn[4]) output += btn[4].getText().trim();
+        if (event.getSource() == btn[5]) output += btn[5].getText().trim();
+        if (event.getSource() == btn[6]) output += btn[6].getText().trim();
+        if (event.getSource() == btn[7]) output += btn[7].getText().trim();
+        if (event.getSource() == btn[8]) output += btn[8].getText().trim();
+        if (event.getSource() == btn[9]) output += btn[9].getText().trim();
+        if (event.getSource() == btn[10]) {
+            for (int i = 0; i < output.length(); i++) if (output.charAt(i) == '.') point = true;
+            if (point == false) output += btn[10].getText().trim();
+        }
+        if (event.getSource() == btn[11]) output = "";
+        if (event != null) textResult.setText(output);
     }
 }
