@@ -5,6 +5,13 @@
             "name": "StudentApplication",
             "request": "launch",
             "mainClass": "chapter9.New.StudentApplication",
+            "projectName": "java_in_class_63e39e38"
+        },
+        {
+            "type": "java",
+            "name": "StudentApplication",
+            "request": "launch",
+            "mainClass": "chapter9.New.StudentApplication",
             "projectName": "java_in_class_fa9d375a"
         }
     ]

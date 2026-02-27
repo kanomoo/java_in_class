@@ -30,6 +30,7 @@ public class StudentApplication extends JFrame implements ActionListener {
         setSize(500, 450);
         setVisible(true);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setResizable(false);
     }
 
     public void initGui() {
@@ -65,7 +66,7 @@ public class StudentApplication extends JFrame implements ActionListener {
         proList[3] = new Project("6201852", "TypeScript", "3");
         proList[4] = new Project("6201462", "Fundamental", "3");
         strProList = new String[proList.length];
-        for (int i = 0; i < proList.length; i++) strProList[i] = "          " + proList[i].toString() + "        ";
+        for (int i = 0; i < proList.length; i++) strProList[i] = "               " + proList[i].toString() + "            ";
         for (int i = 0; i < max; i++) choice[i] = -1;
     }
 
