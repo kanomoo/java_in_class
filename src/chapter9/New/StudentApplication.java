@@ -175,6 +175,7 @@ public class StudentApplication extends JFrame implements ActionListener {
             textStd.setText(""); textHomeWork.setText(""); textMid.setText(""); textFinal.setText("");
             textAreaPro.setText("");
             reg = new Register(); std = new Student(); pro = new Project();
+            for (int i = 0; i < max; i++) choice[i] = -1;
         }
     }
 
