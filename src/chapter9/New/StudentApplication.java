@@ -11,12 +11,12 @@ public class StudentApplication extends JFrame implements ActionListener {
     Project pro, proList[];
     Score score;
     Container c = getContentPane();
-    JPanel panelStd, panelPro, panelScore;
+    JPanel panelStd, panelPro, PanelReport;
     JComboBox<String> comboStd, comboPro, comboScore;
     JTextField textStd, textScore, textHomeWork, textMid, textFinal;
     JTextArea textAreaPro;
     JScrollPane scrollPane;
-    JButton btnStd, btnPro, btnScore;
+    JButton btnStd, btnPro, btnReport, btnClear;
     String strStdList[], strProList[];
     int max = 3, count = 0, choice[] = new int[max];
 
@@ -25,17 +25,18 @@ public class StudentApplication extends JFrame implements ActionListener {
     }
 
     public StudentApplication() {
-        super("StudentAppliction");
+        super("Student Application");
         initGui();
-        setSize(500, 500);
+        setSize(500, 450);
         setVisible(true);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
 
     public void initGui() {
         c.setLayout(new FlowLayout(FlowLayout.CENTER));
+        c.add(new JLabel("Student Application"));
         initData();
-        createPanelStd(); createPanelPro(); createPanelScore();
+        createPanelStd(); createPanelPro(); createPanelReport();
     }
 
     public void initData() {
@@ -73,7 +74,7 @@ public class StudentApplication extends JFrame implements ActionListener {
     }
 
     public void createPanelStd() {
-        panelStd = createPanel(450, 80);
+        panelStd = createPanel(480, 80);
         panelStd.add(new JLabel("Student :"));
         comboStd = createComboBox(panelStd, strStdList);
         btnStd = createButton(panelStd, "Add Student");
@@ -81,7 +82,7 @@ public class StudentApplication extends JFrame implements ActionListener {
     }
 
     public void createPanelPro() {
-        panelPro = createPanel(450, 250);
+        panelPro = createPanel(480, 250);
         panelPro.add(new JLabel("Project :"));
         comboPro = createComboBox(panelPro, strProList);
         panelPro.add(new JLabel("Score HomeWork :"));
@@ -95,8 +96,10 @@ public class StudentApplication extends JFrame implements ActionListener {
         textAreaPro.setEditable(false);
     }
 
-    public void createPanelScore() {
-        panelScore = createPanel(450, 100);
+    public void createPanelReport() {
+        PanelReport = createPanel(480, 50);
+        btnReport = createButton(PanelReport, "Report");
+        btnClear = createButton(PanelReport, "Clear");
     }
 
     public JPanel createPanel(int wight, int height) {
@@ -147,6 +150,8 @@ public class StudentApplication extends JFrame implements ActionListener {
                     score = new Score(Integer.parseInt(textHomeWork.getText()), Integer.parseInt(textMid.getText()), Integer.parseInt(textFinal.getText()));
                     choice[count] = comboPro.getSelectedIndex();
                     textAreaPro.append(String.valueOf(comboPro.getSelectedItem()) + " Total : " + score.toSum() + "\n");
+                    reg.setProject(proList[comboPro.getSelectedIndex()], count);
+                    reg.setScore(score, count);
                     count++;
                     if (count >= 3) {
                         btnPro.setEnabled(false);
@@ -157,13 +162,27 @@ public class StudentApplication extends JFrame implements ActionListener {
             else if (check == false) {JOptionPane.showMessageDialog(c, "Error : Project in data");}
             textHomeWork.setText(""); textMid.setText(""); textFinal.setText("");
         }
+        else if (event.getSource() == btnReport) {
+            String output = "Student Data\n";
+            output += reg.getStd().toString() + "\n";
+            for (int i = 0; i < count; i++) output += reg.getProject(i).toString() + " Total : " + reg.getScore(i).toSum() + "\n";
+            JOptionPane.showMessageDialog(c, output);
+        }
+        else if (event.getSource() == btnClear) {
+            count = 0;
+            btnStd.setEnabled(true); btnPro.setEnabled(true);
+            textHomeWork.setEditable(true); textMid.setEditable(true); textFinal.setEditable(true);
+            textStd.setText(""); textHomeWork.setText(""); textMid.setText(""); textFinal.setText("");
+            textAreaPro.setText("");
+            reg = new Register(); std = new Student(); pro = new Project();
+        }
     }
 
 }
 
 class Student {
-    private String id;
-    private String name, surname;
+    private String id = "";
+    private String name = "", surname = "";
     public Student() {}
     public Student(String id, String name, String surname) { this.id = id; this.name = name; this.surname = surname;}
     public String getId() {return id;}
@@ -176,8 +195,8 @@ class Student {
 }
 
 class Project {
-    private String id, credit;
-    private String name;
+    private String id = "", credit = "";
+    private String name = "";
     public Project() {}
     public Project(String id, String name, String credit) {this.id = id; this.credit = credit; this.name = name;}
     public String getId() {return id;}
@@ -190,7 +209,7 @@ class Project {
 }
 
 class Score {
-    private int homeScore, midScore, finalScore;
+    private int homeScore = 0, midScore= 0, finalScore = 0;
     public Score() {}
     public Score(int homeScore, int midScore, int finalScore) {this.homeScore = homeScore; this.midScore = midScore; this.finalScore = finalScore;}
     public int getHomeScore() {return homeScore;}
@@ -204,14 +223,18 @@ class Score {
 }
 
 class Register {
-    Student std;
-    Project project;
-    Score score;
+    private Student std;
+    private Project project[];
+    private Score score[];
+    private int max = 3;
+    public Register() {std = new Student(); project = new Project[max]; score = new Score[max];}
     public Student getStd() {return std;}
     public void setStd(Student std) {this.std = std;}
-    public Project getProject() {return project;}
-    public void setProject(Project project) {this.project = project;}
-    public Score getScore() {return score;}
-    public void setScore(Score score) {this.score = score;}
+    public Project getProject(int i) {return project[i];}
+    public void setProject(Project project, int i) {this.project[i] = project;}
+    public Score getScore(int i) {return score[i];}
+    public void setScore(Score score, int i) {this.score[i] = score;}
+    public int getMax() {return max;}
+    public void setMax(int max) {this.max = max;}
 
 }
