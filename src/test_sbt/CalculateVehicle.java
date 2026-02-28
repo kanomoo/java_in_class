@@ -56,8 +56,8 @@ public class CalculateVehicle extends JFrame implements ActionListener {
                 textCc.setText("");
                 textYear.setText("");
                 JOptionPane.showMessageDialog(c, "Type of vehicle: " + ((String) comboBox.getSelectedItem()).trim()
-                + "\nSize CC: " + cc + " CC\nVehicle age: " + year + " years" + ((discount == 0) ? "" : "\nTax discount: " 
-                + ((year > 10) ? (int) money * 0.2 : (year > 5) ? (int) money * 0.1 : 0)) + "\nTaxes payable: " + String.format("%.2f", (double) money) + " THB");
+                + "\nSize CC: " + cc + " CC\nVehicle age: " + year + " years" + ((discount == 0) ? "" : "\nTax discount: "
+                + discount) + "\nTaxes payable: " + String.format("%.2f", (double) money) + " THB");
             } catch (Exception e) {
                 JOptionPane.showMessageDialog(c, "No data");
             }
