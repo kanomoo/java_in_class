@@ -2,6 +2,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "chapter10.New.App",
+            "projectName": "java_in_class_9f6bbd82"
+        },
+        {
+            "type": "java",
+            "name": "ex4",
+            "request": "launch",
+            "mainClass": "chapter10.New.ex4",
+            "projectName": "java_in_class_9f6bbd82"
+        },
+        {
+            "type": "java",
+            "name": "ex3",
+            "request": "launch",
+            "mainClass": "chapter10.New.ex3",
+            "projectName": "java_in_class_9f6bbd82"
+        },
+        {
+            "type": "java",
+            "name": "ex2",
+            "request": "launch",
+            "mainClass": "chapter10.New.ex2",
+            "projectName": "java_in_class_9f6bbd82"
+        },
+        {
+            "type": "java",
             "name": "CalculateVehicle",
             "request": "launch",
             "mainClass": "test_sbt.CalculateVehicle",
