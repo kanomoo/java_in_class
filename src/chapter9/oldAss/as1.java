@@ -40,7 +40,6 @@ public class as1 extends JFrame implements ActionListener{
                 output += "Midterm Score  : " + mid + "  ->  " + twoDigit.format(mid * 0.3) + "\n";
                 output += "Final Score    : " + finalS + "  ->  " + twoDigit.format(finalS * 0.4) + "\n";
                 output += "Total Score : " + twoDigit.format(total = ((hw) * (0.3)) + (mid * 0.3) + (finalS * 0.4)) + "\nGrade : " + getGrade(total);
-
                 textArea.setText(output);
             } catch (Exception e) {
                 JOptionPane.showMessageDialog(c, "No input Data", "Message", JOptionPane.ERROR_MESSAGE);
@@ -60,6 +59,7 @@ public class as1 extends JFrame implements ActionListener{
         setVisible(true);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocation(300,10);
+        setResizable(false);
     }
 
     public void initGui() {
@@ -89,6 +89,7 @@ public class as1 extends JFrame implements ActionListener{
     public void initPanelArea() {
         panelArea = createJPanel(400, 150);
         panelArea.add(textArea = new JTextArea(6,32)); textArea.setFont(font);
+        textArea.setEditable(false);
         textArea.setForeground(Color.BLUE);
     }
 
