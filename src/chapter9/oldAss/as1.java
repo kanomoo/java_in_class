@@ -36,10 +36,10 @@ public class as1 extends JFrame implements ActionListener{
         if (event.getSource() == btnCal) {
             try {
                 double hw = Double.parseDouble(textHw.getText()), mid = Double.parseDouble(textMid.getText()), finalS = Double.parseDouble(textFinal.getText()), total = 0;
-                String output = "Homework Score  :  " + hw + "  ->  " + twoDigit.format((hw) * (0.3)) + "\n";
-                output += "Midterm Score       :  " + mid + "  ->  " + twoDigit.format(mid * 0.3) + "\n";
-                output += "Final Score               :  " + finalS + "  ->  " + twoDigit.format(finalS * 0.4) + "\n";
-                output += "Total Score  :  " + twoDigit.format(total = ((hw) * (0.3)) + (mid * 0.3) + (finalS * 0.4)) + "\nGrade  :   " + getGrade(total);
+                String output = "Homework Score : " + hw + "  ->  " + twoDigit.format((hw) * (0.3)) + "\n";
+                output += "Midterm Score  : " + mid + "  ->  " + twoDigit.format(mid * 0.3) + "\n";
+                output += "Final Score    : " + finalS + "  ->  " + twoDigit.format(finalS * 0.4) + "\n";
+                output += "Total Score : " + twoDigit.format(total = ((hw) * (0.3)) + (mid * 0.3) + (finalS * 0.4)) + "\nGrade : " + getGrade(total);
 
                 textArea.setText(output);
             } catch (Exception e) {
@@ -69,12 +69,12 @@ public class as1 extends JFrame implements ActionListener{
     }
 
     public void initPanelEnter() {
-        panelEnter = createJPanel(400, 130);
-        panelEnter.add(createJLabel("Enter Homework Score :   "));
+        panelEnter = createJPanel(400, 100);
+        panelEnter.add(createJLabel("Enter Homework Score : "));
         panelEnter.add(textHw = createJTextField());
-        panelEnter.add(createJLabel("Enter Midterm Score     :   "));
+        panelEnter.add(createJLabel("Enter Midterm Score  : "));
         panelEnter.add(textMid = createJTextField());
-        panelEnter.add(createJLabel("Enter Final Score             :   "));
+        panelEnter.add(createJLabel("Enter Final Score    : "));
         panelEnter.add(textFinal = createJTextField());
     }
 
@@ -88,7 +88,7 @@ public class as1 extends JFrame implements ActionListener{
 
     public void initPanelArea() {
         panelArea = createJPanel(400, 150);
-        panelArea.add(textArea = new JTextArea(5,18)); textArea.setFont(font);
+        panelArea.add(textArea = new JTextArea(6,32)); textArea.setFont(font);
         textArea.setForeground(Color.BLUE);
     }
 
