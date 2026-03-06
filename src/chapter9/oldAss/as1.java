@@ -39,7 +39,7 @@ public class as1 extends JFrame implements ActionListener{
                 String output = "Homework Score  :  " + hw + "  ->  " + twoDigit.format((hw) * (0.3)) + "\n";
                 output += "Midterm Score       :  " + mid + "  ->  " + twoDigit.format(mid * 0.3) + "\n";
                 output += "Final Score               :  " + finalS + "  ->  " + twoDigit.format(finalS * 0.4) + "\n";
-                output += "Total Score  :  " + twoDigit.format(total = ((hw) * (0.3)) + (mid * 0.3) + (finalS * 0.4)) + "\nGrade  :  " + getGrade(total);
+                output += "Total Score  :  " + twoDigit.format(total = ((hw) * (0.3)) + (mid * 0.3) + (finalS * 0.4)) + "\nGrade  :   " + getGrade(total);
 
                 textArea.setText(output);
             } catch (Exception e) {
