@@ -2,51 +2,9 @@
     "configurations": [
         {
             "type": "java",
-            "name": "App",
+            "name": "as1",
             "request": "launch",
-            "mainClass": "chapter10.New.App",
-            "projectName": "java_in_class_9f6bbd82"
-        },
-        {
-            "type": "java",
-            "name": "ex4",
-            "request": "launch",
-            "mainClass": "chapter10.New.ex4",
-            "projectName": "java_in_class_9f6bbd82"
-        },
-        {
-            "type": "java",
-            "name": "ex3",
-            "request": "launch",
-            "mainClass": "chapter10.New.ex3",
-            "projectName": "java_in_class_9f6bbd82"
-        },
-        {
-            "type": "java",
-            "name": "ex2",
-            "request": "launch",
-            "mainClass": "chapter10.New.ex2",
-            "projectName": "java_in_class_9f6bbd82"
-        },
-        {
-            "type": "java",
-            "name": "CalculateVehicle",
-            "request": "launch",
-            "mainClass": "test_sbt.CalculateVehicle",
-            "projectName": "java_in_class_63e39e38"
-        },
-        {
-            "type": "java",
-            "name": "StudentApplication",
-            "request": "launch",
-            "mainClass": "chapter9.New.StudentApplication",
-            "projectName": "java_in_class_63e39e38"
-        },
-        {
-            "type": "java",
-            "name": "StudentApplication",
-            "request": "launch",
-            "mainClass": "chapter9.New.StudentApplication",
+            "mainClass": "chapter9.oldAss.as1",
             "projectName": "java_in_class_fa9d375a"
         }
     ]
