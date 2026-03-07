@@ -27,7 +27,7 @@ public class as3 extends JFrame implements ActionListener{
     DecimalFormat oneDigit = new DecimalFormat("#0.0"), twoDigit = new DecimalFormat("#0.00");
     Font font = new Font("Courier New", Font.BOLD, 20);
     String output = "";
-    double total = 0, totalCredit = 0;
+    double total = 0, totalCredit = 0, gpa = 0;
     int count = 0;
     public static void main(String[] args) {
         new as3();
@@ -50,16 +50,21 @@ public class as3 extends JFrame implements ActionListener{
                 if (count < 8) {
                     output += " " + (count + 1) + ".  " + oneDigit.format(score) + "   " + String.format("%-6s", getGrade(score)) + oneDigit.format(credit) + "  " + twoDigit.format(getScorePoint(score) * credit) + "\n";
                     total += getScorePoint(score) * credit; totalCredit += credit;
-                    textArea.setText(output); textScore.setText(""); textCredit.setText(""); textGpa.setText(String.valueOf(total / totalCredit));
+                    textArea.setText(output); textScore.setText(""); textCredit.setText(""); textGpa.setText(twoDigit.format(gpa = total / totalCredit));
                     count++;
                 } else {
-                    JTextArea output = new JTextArea("จำนวนวิชาได้ครบ 8 วิชาแล้ว ไม่สามารถเพิ่มได้"); output.setFont(new Font("Tahoma", Font.BOLD, 20));
+                    JTextArea output = new JTextArea("จำนวนวิชาได้ครบ 8 วิชาแล้ว ไม่สามารถเพิ่มได้"); output.setFont(new Font("Tahoma", Font.BOLD, 16));
                     output.setOpaque(false);
                     JOptionPane.showMessageDialog(c, output);
                 }
             } catch (Exception e) {
                 JOptionPane.showMessageDialog(c, "Input not complete");
             }
+        }
+        if (event.getSource() == btnClear) {
+            total = 0; totalCredit = 0; textScore.setText(""); textCredit.setText("");
+            output = "No. Score Grade Credit Point\n============================\n"; textArea.setText(output); count = 0;
+            textGpa.setText(twoDigit.format(gpa = 0));
         }
     }
 
@@ -87,7 +92,7 @@ public class as3 extends JFrame implements ActionListener{
     public void initPanelGpa() {
         panelGpa = createPanel(450, 50);
         panelGpa.add(createLabel("Grade Point Average (GPA) : ")); panelGpa.add(textGpa = createTextField(5));
-        textGpa.setForeground(Color.BLUE); textGpa.setEditable(false);
+        textGpa.setForeground(Color.BLUE); textGpa.setEditable(false); textGpa.setText(twoDigit.format(gpa));
     }
 
     public JPanel createPanel(int width, int height) {
