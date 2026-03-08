@@ -7,5 +7,6 @@
     "cSpell.words": [
         "จัดรูปแบบตัวเลข"
     ],
-    "CodeGPT.apiKey": "Gemini CLI"
+    "CodeGPT.apiKey": "Gemini CLI",
+    "java.debug.settings.onBuildFailureProceed": true
 }

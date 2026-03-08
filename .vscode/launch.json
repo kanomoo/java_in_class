@@ -1,0 +1,39 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "f1",
+            "request": "launch",
+            "mainClass": "testF.f1",
+            "projectName": "java_in_class_63e39e38"
+        },
+        {
+            "type": "java",
+            "name": "as3",
+            "request": "launch",
+            "mainClass": "chapter9.oldAss.as3",
+            "projectName": "java_in_class_63e39e38"
+        },
+        {
+            "type": "java",
+            "name": "as2",
+            "request": "launch",
+            "mainClass": "chapter9.oldAss.as2",
+            "projectName": "java_in_class_63e39e38"
+        },
+        {
+            "type": "java",
+            "name": "as1",
+            "request": "launch",
+            "mainClass": "chapter9.oldAss.as1",
+            "projectName": "java_in_class_63e39e38"
+        },
+        {
+            "type": "java",
+            "name": "f2",
+            "request": "launch",
+            "mainClass": "testF.f2",
+            "projectName": "java_in_class_63e39e38"
+        }
+    ]
+}
