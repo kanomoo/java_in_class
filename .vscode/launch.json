@@ -2,7 +2,32 @@
     "configurations": [
         {
             "type": "java",
+<<<<<<< HEAD
             "name": "testFinal2",
+=======
+            "name": "AppProduct",
+            "request": "launch",
+            "mainClass": "chapter11.New.AppProduct",
+            "projectName": "java_in_class_9f6bbd82"
+        },
+        {
+            "type": "java",
+            "name": "AppReadWriteFile",
+            "request": "launch",
+            "mainClass": "chapter11.New.AppReadWriteFile",
+            "projectName": "java_in_class_9f6bbd82"
+        },
+        {
+            "type": "java",
+            "name": "f1",
+            "request": "launch",
+            "mainClass": "testF.f1",
+            "projectName": "java_in_class_9f6bbd82"
+        },
+        {
+            "type": "java",
+            "name": "f1",
+>>>>>>> db0a37f01cc2bc54aa5ffbfe83b9b6d806fe8293
             "request": "launch",
             "mainClass": "testF.testFinal2",
             "projectName": "java_in_class_63e39e38"
