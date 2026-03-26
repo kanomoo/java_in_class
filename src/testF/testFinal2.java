@@ -21,7 +21,7 @@ import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
 import javax.swing.JTextField;
 
-public class f2 extends JFrame implements ActionListener {
+public class testFinal2 extends JFrame implements ActionListener {
     JPanel panelEnter, panelBtn, panelResult;
     JTextField textId, textName, textPrice;
     JButton btnAdd, btnDelete, btnSave, btnLoad;
@@ -34,10 +34,10 @@ public class f2 extends JFrame implements ActionListener {
     Container c = getContentPane();
 
     public static void main(String[] args) {
-        new f2();
+        new testFinal2();
     }
 
-    public f2() {
+    public testFinal2() {
         super("Product");
         initGui();
         setSize(460,400);

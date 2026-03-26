@@ -16,7 +16,7 @@ import javax.swing.JRadioButton;
 import javax.swing.JTextArea;
 import javax.swing.JTextField;
 
-public class f1 extends JFrame implements ActionListener{
+public class testFinal1 extends JFrame implements ActionListener{
     JTextField textName, textPrice, textQty, textId;
     JRadioButton btnNormal, btnMember;
     JButton btnCal, btnClear;
@@ -29,7 +29,7 @@ public class f1 extends JFrame implements ActionListener{
     Container c = getContentPane();
 
     public static void main(String[] args) {
-        new f1();
+        new testFinal1();
     }
 
     @Override
@@ -53,7 +53,7 @@ public class f1 extends JFrame implements ActionListener{
         }
     }
 
-    public f1() {
+    public testFinal1() {
         super("Coffee");
         initGui();
         setSize(400,400);

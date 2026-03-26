@@ -1,0 +1,3 @@
+Data Student : 432; 123; 123; 432; A
+Data Student : 43214; 123; 123; 43214; A
+Data Student : 321; 132; 231; 321; F
