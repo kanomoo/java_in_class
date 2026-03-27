@@ -1,0 +1,1 @@
+Data Student : 0011 ; vin ; 50 ; D
