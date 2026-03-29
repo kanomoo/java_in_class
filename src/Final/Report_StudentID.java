@@ -7,6 +7,10 @@ import java.awt.FlowLayout;
 import java.awt.Font;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.util.ArrayList;
 
 import javax.swing.JComboBox;
 import javax.swing.JFrame;
@@ -42,7 +46,17 @@ public class Report_StudentID extends JFrame implements ActionListener {
     }
 
     public void initData() {
-        
+        ArrayList<Student> arrayData = new ArrayList<>();
+        try {
+            BufferedReader reader = new BufferedReader(new FileReader("src/Final/Student.txt"));
+            String[] listData, listNameSurname, listGrade;
+            for (String data : reader.readAllLines())
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+
     }
 
     public void initGui() {

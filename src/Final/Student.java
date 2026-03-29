@@ -8,7 +8,7 @@ public class Student extends Person{
     public Student() {
     }
 
-    public Student(String name, String surname, String id, String[] grade) {
+    public Student(String id, String name, String surname, String[] grade) {
         super(name, surname);
         this.id = id;
         this.grade = grade;

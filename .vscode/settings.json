@@ -5,6 +5,7 @@
         "lib/**/*.jar"
     ],
     "cSpell.words": [
+        "datas",
         "จัดรูปแบบตัวเลข"
     ],
     "CodeGPT.apiKey": "Gemini CLI",
