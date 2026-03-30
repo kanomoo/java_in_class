@@ -50,7 +50,7 @@ public class Report_StudentID extends JFrame implements ActionListener {
         try {
             BufferedReader reader = new BufferedReader(new FileReader("src/Final/Student.txt"));
             String[] listData, listNameSurname, listGrade;
-            for (String data : reader.readAllLines())
+            for (String data : reader.readAllLines());
 
         } catch (Exception e) {
             e.printStackTrace();
