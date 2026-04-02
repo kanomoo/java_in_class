@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "AppLoan_StudentID",
+            "request": "launch",
+            "mainClass": "Final.AppLoan_StudentID",
+            "projectName": "java_in_class_63e39e38"
+        }
+    ]
+}
