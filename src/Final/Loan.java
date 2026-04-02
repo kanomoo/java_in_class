@@ -42,12 +42,12 @@ public class Loan {
     public String toCalculateReport() {
         String output = "";
         double downAmount, financeAmount, interest, totalPayment, monthly;
-        output += "Price : " + price + "\nDown Payment : " + downPayment + "\nDown Payment Amount : " + (downAmount = price * (downPayment / 100.0));
+        output += "Price : " + price + "\nDown Payment : " + downPayment + "\nDown Payment Amount : " + String.format("%.2f", (downAmount = price * (downPayment / 100.0))) ;
         output += "\nFinance Amount : " + (financeAmount = price - downAmount) + "\nInterest Rate : " + interestRate;
-        output += "\nMont : " + mont + "\nInterest : " + (interest = financeAmount * (interestRate / 12.0 / 100.0) * mont);
+        output += "\nMont : " + mont + "\nInterest : " + String.format("%.2f", (interest = financeAmount * (interestRate / 12.0 / 100.0) * mont)) ;
         totalPayment = financeAmount + interest;
         monthly = totalPayment / mont;
-        output += "\nTotal Payment : " + totalPayment + "\nMonthly : " + monthly;
+        output += "\nTotal Payment : " + String.format("%.2f", totalPayment) + "\nMonthly : " + String.format("%.2f", monthly);
         return output;
     }
 }

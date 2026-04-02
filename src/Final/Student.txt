@@ -1,3 +1,10 @@
 9324098321,Somchai Chear,A B+ A B C
 9324098322,Suda Dee,B B C+ C D
 9324098323,Mana Rak,A A A B+ B
+9324098324,Niran Suk,B+ A C+ B B
+9324098325,Anong Jai,A B+ B+ A C
+9324098326,Krit Tong,C+ B B C+ B
+9324098327,Chai Wat,A A B+ A B+
+9324098328,Pim Dao,B+ C+ B C B+
+9324098329,Somying Fah,A B A B+ A
+9324098330,Teera Kwan,B C+ B B C

@@ -46,6 +46,9 @@ public class AppLoan_StudentID extends JFrame implements ActionListener{
                 JOptionPane.showMessageDialog(c, "Error : No input");
             }
         }
+        else if (event.getSource() == btnCancle) {
+            textPrice.setText(""); textRate.setText(""); textArea.setText(""); comboDown.setSelectedIndex(0); comboMont.setSelectedIndex(0);
+        }
     }
 
     AppLoan_StudentID() {
@@ -69,10 +72,10 @@ public class AppLoan_StudentID extends JFrame implements ActionListener{
         panelFrom = new JPanel(new FlowLayout(FlowLayout.LEFT));
         panelFrom.setPreferredSize(new Dimension(400,170));
         panelFrom.setBorder(new LineBorder(Color.ORANGE,2));
-        panelFrom.add(createLabel("                            Price  :  ")); panelFrom.add(textPrice = new JTextField(5)); textPrice.setFont(font);
-        panelFrom.add(createLabel("       Down Payment  :  ")); panelFrom.add(comboDown);
-        panelFrom.add(createLabel("           Interest Rate  :  ")); panelFrom.add(textRate = new JTextField(5)); textRate.setFont(font);
-        panelFrom.add(createLabel("                           Mont  :  ")); panelFrom.add(comboMont);
+        panelFrom.add(createLabel("         Price  :  ")); panelFrom.add(textPrice = new JTextField(10)); textPrice.setFont(font);
+        panelFrom.add(createLabel("  Down Payment  :  ")); panelFrom.add(comboDown);
+        panelFrom.add(createLabel(" Interest Rate  :  ")); panelFrom.add(textRate = new JTextField(10)); textRate.setFont(font);
+        panelFrom.add(createLabel("          Mont  :  ")); panelFrom.add(comboMont);
         c.add(panelFrom);
 
         panelBtn = new JPanel(new FlowLayout());
@@ -83,9 +86,9 @@ public class AppLoan_StudentID extends JFrame implements ActionListener{
         c.add(panelBtn);
 
         panelReport = new JPanel(new FlowLayout());
-        panelReport.setPreferredSize(new Dimension(400,300));
+        panelReport.setPreferredSize(new Dimension(400,250));
         panelReport.setBorder(new LineBorder(Color.ORANGE,2));
-        panelReport.add(textArea = new JTextArea(10,19)); textArea.setFont(font);
+        panelReport.add(textArea = new JTextArea(10,30)); textArea.setFont(font);
         c.add(panelReport);
     }
 
