@@ -29,9 +29,11 @@ public class Car_Installment {
         String output = "Price car : " + twoDigit.format(price);
         output += "\nAmount down payment(" + twoDigit.format(downPayment) + "%) : " + twoDigit.format(Down_Payment = price * (downPayment / 100.0));
         output += "\nAmount finance : " + twoDigit.format(Financed_Amount = price - Down_Payment);
-        output += "\nAmount interest(" + twoDigit.format(interestRate) + "%) : " + twoDigit.format(Interest_Amount = Financed_Amount * ((Monthly_Rate = interestRate / 12.0) / 100.0) * month) ;
+        Monthly_Rate = interestRate / 12.0;
+        output += "\nAmount interest(" + twoDigit.format(interestRate) + "%) : " + twoDigit.format(Interest_Amount = Financed_Amount * (Monthly_Rate / 100.0) * month) ;
         output += "\nAmount net finance : " + twoDigit.format(Net_Amount = Financed_Amount + Interest_Amount);
-        output += "\nAmount installment(per month) : " + twoDigit.format(Monthly_Installment = Net_Amount / month) ;
+        Monthly_Installment = Net_Amount / month;
+        output += "\nAmount installment(per month) : " + twoDigit.format(Monthly_Installment) ;
         System.out.println("\n" + output);
     }
 

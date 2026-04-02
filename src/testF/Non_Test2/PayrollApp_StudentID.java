@@ -185,7 +185,6 @@ public class PayrollApp_StudentID extends JFrame implements ActionListener{
 
     public void loadFromFileAction() {
         try {
-                String output = "";
                 textArea.setText("");
                 empList.clear();
                 BufferedReader reader = new BufferedReader(new FileReader(file));

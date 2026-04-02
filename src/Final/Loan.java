@@ -40,10 +40,14 @@ public class Loan {
     }
 
     public String toCalculateReport() {
+        String output = "";
         double downAmount, financeAmount, interest, totalPayment, monthly;
-        return "Price : " + price + "\nDown Payment : " + downPayment + "\nDown Payment Amount : " + (downAmount = price * (downPayment / 100.0)) + 
-        "\nFinance Amount : " + (financeAmount = price - downAmount) + "\nInterest Rate : " + interestRate + 
-        "\nMont : " + mont + "\nInterest : " + (interest = financeAmount * (interestRate / 12.0 / 100.0) * mont) +
-        "\nTotal Payment : " + (totalPayment = financeAmount + interest) + "\nMonthly : " + (monthly = totalPayment / mont);
+        output += "Price : " + price + "\nDown Payment : " + downPayment + "\nDown Payment Amount : " + (downAmount = price * (downPayment / 100.0));
+        output += "\nFinance Amount : " + (financeAmount = price - downAmount) + "\nInterest Rate : " + interestRate;
+        output += "\nMont : " + mont + "\nInterest : " + (interest = financeAmount * (interestRate / 12.0 / 100.0) * mont);
+        totalPayment = financeAmount + interest;
+        monthly = totalPayment / mont;
+        output += "\nTotal Payment : " + totalPayment + "\nMonthly : " + monthly;
+        return output;
     }
 }

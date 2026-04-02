@@ -7,7 +7,6 @@ public class ex11 {
     public static void main(String[] args) {
         String choiceStr, strMenu;
         boolean done = true;
-        int _main, $main, Main, main;
         strMenu = ">> Main Menu  <<\n 1. Random Integer Number(1 - 100)\n";
         strMenu += " 2. Check Prime Number\n 3. Convert Number Decimal to Binary\n";
         strMenu += " 4. Exit\n Enter choice : ";
