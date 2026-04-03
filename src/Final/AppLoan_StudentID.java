@@ -88,7 +88,7 @@ public class AppLoan_StudentID extends JFrame implements ActionListener{
         panelReport = new JPanel(new FlowLayout());
         panelReport.setPreferredSize(new Dimension(400,250));
         panelReport.setBorder(new LineBorder(Color.ORANGE,2));
-        panelReport.add(textArea = new JTextArea(10,30)); textArea.setFont(font);
+        panelReport.add(textArea = new JTextArea(10,30)); textArea.setFont(font); textArea.setForeground(Color.BLUE);
         c.add(panelReport);
     }
 
