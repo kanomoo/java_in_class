@@ -26,7 +26,6 @@ public class Pyramid extends JFrame implements ActionListener{
         setVisible(true);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setResizable(false);
-
     }
 
     public void initGui() {
@@ -38,11 +37,8 @@ public class Pyramid extends JFrame implements ActionListener{
     @Override
     public void actionPerformed(ActionEvent event) {
         if (event.getSource() == textValue) {
-            textArea.setText("");
-            int len = Integer.parseInt(textValue.getText());
-            for (int i = 0; i < len; i++ ) {
-                textArea.append(" ".repeat((len - i) * 2) + "*".repeat(i * 2) + "*" + "\n");
-            }
+            textArea.setText(""); int len = Integer.parseInt(textValue.getText());
+            for (int i = 0; i < len; i++ ) textArea.append(" ".repeat((len - i) * 2) + "*".repeat(i * 2) + "*" + "\n");
         }
     }
 }
