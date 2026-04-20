@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1a852345-93d8-4f94-b991-76c5d9f9a154" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.vscode/launch.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/launch.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Ass 6/Assign06_6806021612037/src/Assign06_6806012612037.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Ass 6/Assign06_6806021612037/src/Assign06_6806012612037.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Ass 6/Assign06_6806021612037/src/Score.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Ass 6/Assign06_6806021612037/src/Score.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Ass 7/Assign07_6806021612037/src/AppStudentGrade.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Ass 7/Assign07_6806021612037/src/AppStudentGrade.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Ass 7/Assign07_6806021612037/src/Assign07_6806021612037.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Ass 7/Assign07_6806021612037/src/Assign07_6806021612037.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Ass 7/Assign07_6806021612037/src/Calculator_6806021612037.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Ass 7/Assign07_6806021612037/src/Calculator_6806021612037.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Ass 7/Assign07_6806021612037/src/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Ass 7/Assign07_6806021612037/src/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Ass 7/Assign07_6806021612037/src/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Ass 7/Assign07_6806021612037/src/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Ass2/Ass2_01.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Ass2/Ass2_01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Ass2/Ass2_02.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Ass2/Ass2_02.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Ass2/Ass2_03.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Ass2/Ass2_03.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Ass2/Ass2_04.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Ass2/Ass2_04.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Ass3/Ass3_01.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Ass3/Ass3_01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Ass3/Ass3_02.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Ass3/Ass3_02.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Ass3/Ass3_03.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Ass3/Ass3_03.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Ass3/Ass3_04.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Ass3/Ass3_04.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Final/AppLoan_StudentID.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Final/AppLoan_StudentID.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Final/Loan.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Final/Loan.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Final/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Final/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Final/Report_StudentID.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Final/Report_StudentID.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Final/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Final/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/JavaNotesForProfessionals/Chapter 7/Section7_1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/JavaNotesForProfessionals/Chapter 7/Section7_1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Midterm/Cafe_6806021612037.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Midterm/Cafe_6806021612037.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Midterm/Gpa_6806021612037.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Midterm/Gpa_6806021612037.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Midterm/Mid1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Midterm/Mid1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter1/ex1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter1/ex1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter1/ex1_1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter1/ex1_1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter1/ex1_2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter1/ex1_2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter1/ex2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter1/ex2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter1/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter1/test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter10/Circle.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter10/Circle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter10/Circle1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter10/Circle1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter10/Circle1Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter10/Circle1Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter10/Circle2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter10/Circle2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter10/Circle2Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter10/Circle2Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter10/Circle3.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter10/Circle3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter10/CircleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter10/CircleTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter10/ConstructorFinalizerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter10/ConstructorFinalizerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter10/CyliderTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter10/CyliderTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter10/Cylinder.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter10/Cylinder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter10/New/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter10/New/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter10/New/Ex1Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter10/New/Ex1Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter10/New/Ex1Subject.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter10/New/Ex1Subject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter10/New/Ex2Circle.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter10/New/Ex2Circle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter10/New/Ex2Point.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter10/New/Ex2Point.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter10/New/Ex3Circle.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter10/New/Ex3Circle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter10/New/Ex3Point.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter10/New/Ex3Point.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter10/New/Ex4Circle.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter10/New/Ex4Circle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter10/New/Ex4Cylinder.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter10/New/Ex4Cylinder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter10/New/Ex4Point.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter10/New/Ex4Point.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter10/New/Register.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter10/New/Register.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter10/New/RegisterApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter10/New/RegisterApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter10/New/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter10/New/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter10/New/Subject.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter10/New/Subject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter10/New/ex1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter10/New/ex1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter10/New/ex2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter10/New/ex2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter10/New/ex3.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter10/New/ex3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter10/New/ex4.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter10/New/ex4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter10/New/myJFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter10/New/myJFrame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter10/Point.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter10/Point.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter10/Point1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter10/Point1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter10/Point2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter10/Point2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter10/Point3.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter10/Point3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter10/PointText.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter10/PointText.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter11/AppProduct.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter11/AppProduct.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter11/AppReadWriteFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter11/AppReadWriteFile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter11/New/AppProduct.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter11/New/AppProduct.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter11/New/AppReadWriteFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter11/New/AppReadWriteFile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter11/New/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter11/New/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter2/New/ex3.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter2/New/ex3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter2/New/ex4.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter2/New/ex4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter2/TestComparision.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter2/TestComparision.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter2/TestIncrement.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter2/TestIncrement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter2/TestLogical.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter2/TestLogical.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter2/TestSignificant.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter2/TestSignificant.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter2/ex1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter2/ex1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter2/ex10.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter2/ex10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter2/ex11.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter2/ex11.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter2/ex12.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter2/ex12.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter2/ex2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter2/ex2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter2/ex3.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter2/ex3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter2/ex4.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter2/ex4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter2/ex5.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter2/ex5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter2/ex6.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter2/ex6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter2/ex7.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter2/ex7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter2/ex8.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter2/ex8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter2/ex9.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter2/ex9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter2/exercises1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter2/exercises1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter2/exercises2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter2/exercises2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter2/exercises3.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter2/exercises3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter2/exercises4.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter2/exercises4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter2/exercises5.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter2/exercises5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter3/New/ex1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter3/New/ex1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter3/New/ex10.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter3/New/ex10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter3/New/ex11.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter3/New/ex11.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter3/New/ex12.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter3/New/ex12.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter3/New/ex2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter3/New/ex2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter3/New/ex3.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter3/New/ex3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter3/New/ex4.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter3/New/ex4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter3/New/ex5.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter3/New/ex5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter3/New/ex6.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter3/New/ex6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter3/New/ex7.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter3/New/ex7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter3/New/ex8.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter3/New/ex8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter3/New/ex9.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter3/New/ex9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter3/New/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter3/New/test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter3/ex1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter3/ex1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter3/ex10.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter3/ex10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter3/ex11.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter3/ex11.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter3/ex12.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter3/ex12.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter3/ex13.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter3/ex13.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter3/ex14.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter3/ex14.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter3/ex2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter3/ex2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter3/ex3.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter3/ex3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter3/ex4.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter3/ex4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter3/ex5.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter3/ex5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter3/ex6.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter3/ex6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter3/ex7.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter3/ex7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter3/ex8.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter3/ex8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter3/ex9.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter3/ex9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter3/exercise1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter3/exercise1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter3/exercise2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter3/exercise2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter3/exercise3.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter3/exercise3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter3/exercise4.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter3/exercise4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter3/exercise5.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter3/exercise5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter3/exercise6.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter3/exercise6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter3/exercise7.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter3/exercise7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter4/New/CircleClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter4/New/CircleClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter4/New/DataClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter4/New/DataClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter4/New/class_ex3.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter4/New/class_ex3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter4/New/ex1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter4/New/ex1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter4/New/ex2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter4/New/ex2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter4/New/ex3.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter4/New/ex3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter4/New/ex4.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter4/New/ex4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter4/New/ex5.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter4/New/ex5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter4/New/ex6.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter4/New/ex6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter4/New/ex7.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter4/New/ex7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter4/New/ex8.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter4/New/ex8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter4/New/exp1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter4/New/exp1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter4/New/exp2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter4/New/exp2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter4/New/exp3.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter4/New/exp3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter4/ex1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter4/ex1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter4/ex10.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter4/ex10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter4/ex11.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter4/ex11.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter4/ex2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter4/ex2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter4/ex3.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter4/ex3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter4/ex4.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter4/ex4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter4/ex5.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter4/ex5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter4/ex6.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter4/ex6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter4/ex7.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter4/ex7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter4/ex8.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter4/ex8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter4/ex9.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter4/ex9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter5/DataClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter5/DataClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter5/New/ex1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter5/New/ex1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter5/New/ex11.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter5/New/ex11.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter5/New/ex2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter5/New/ex2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter5/New/ex3.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter5/New/ex3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter5/New/ex4.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter5/New/ex4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter5/New/ex5.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter5/New/ex5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter5/New/ex6.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter5/New/ex6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter5/New/ex7.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter5/New/ex7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter5/New/ex8.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter5/New/ex8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter5/New/ex9.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter5/New/ex9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter5/New/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter5/New/test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter5/ex1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter5/ex1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter5/ex10.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter5/ex10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter5/ex2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter5/ex2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter5/ex3.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter5/ex3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter5/ex4.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter5/ex4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter5/ex5.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter5/ex5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter5/ex6.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter5/ex6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter5/ex7.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter5/ex7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter5/ex8.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter5/ex8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter5/testFac.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter5/testFac.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter5/test_ex/Car_Installment.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter5/test_ex/Car_Installment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter5/text_ex2/Car_Installment.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter5/text_ex2/Car_Installment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter6/New/Assign04_6806021612037.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter6/New/Assign04_6806021612037.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter6/New/Assign05_6806021612037.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter6/New/Assign05_6806021612037.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter6/New/Fibonacci_Program.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter6/New/Fibonacci_Program.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter6/New/ex1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter6/New/ex1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter6/New/ex10.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter6/New/ex10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter6/New/ex2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter6/New/ex2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter6/New/ex3.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter6/New/ex3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter6/New/ex4.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter6/New/ex4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter6/New/ex5.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter6/New/ex5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter6/New/ex6.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter6/New/ex6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter6/New/ex8.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter6/New/ex8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter6/New/ex9.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter6/New/ex9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter6/ex1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter6/ex1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter6/ex10.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter6/ex10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter6/ex11.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter6/ex11.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter6/ex12.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter6/ex12.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter6/ex2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter6/ex2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter6/ex3.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter6/ex3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter6/ex4.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter6/ex4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter6/ex5.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter6/ex5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter6/ex6.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter6/ex6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter6/ex7.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter6/ex7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter6/ex8.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter6/ex8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter6/ex9.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter6/ex9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter7/Employee1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter7/Employee1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter7/Employee2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter7/Employee2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter7/Employee3.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter7/Employee3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter7/New/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter7/New/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter7/New/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter7/New/Book.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter7/New/Circle.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter7/New/Circle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter7/New/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter7/New/Employee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter7/New/Exercise1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter7/New/Exercise1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter7/New/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter7/New/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter7/New/Student1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter7/New/Student1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter7/ex1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter7/ex1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter7/ex2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter7/ex2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter7/ex3.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter7/ex3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter7/exercise1/Circle.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter7/exercise1/Circle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter7/exercise1/exercise1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter7/exercise1/exercise1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter7/exercise2/Rectangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter7/exercise2/Rectangle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter7/exercise2/exercise2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter7/exercise2/exercise2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter7/exercise3/Students.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter7/exercise3/Students.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter7/exercise3/exercise3.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter7/exercise3/exercise3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter8/ApplicationCalculate.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter8/ApplicationCalculate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter8/ApplicationJListJComboBox.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter8/ApplicationJListJComboBox.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter8/ApplicationSummation$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter8/ApplicationSummation$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter8/ApplicationSummation.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter8/ApplicationSummation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter8/ApplicationSummationImplement.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter8/ApplicationSummationImplement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter8/MinMaxNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter8/MinMaxNumber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter8/MinMaxProgram.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter8/MinMaxProgram.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter8/MyCal.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter8/MyCal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter8/MyJFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter8/MyJFrame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter8/MyPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter8/MyPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter8/New/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter8/New/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter8/New/BankAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter8/New/BankAccount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter8/New/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter8/New/Employee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter8/New/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter8/New/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter8/New/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter8/New/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter8/New/Student2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter8/New/Student2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter8/Tcontainer.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter8/Tcontainer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter8/WindowsBorderLayout.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter8/WindowsBorderLayout.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter8/WindowsFlowLayout.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter8/WindowsFlowLayout.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter8/WindowsGridLayout.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter8/WindowsGridLayout.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter8/WindowsGui4.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter8/WindowsGui4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter8/ex1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter8/ex1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter8/ex10.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter8/ex10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter8/ex11.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter8/ex11.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter8/ex12.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter8/ex12.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter8/ex13.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter8/ex13.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter8/ex14.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter8/ex14.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter8/ex2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter8/ex2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter8/ex3.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter8/ex3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter8/ex4.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter8/ex4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter8/ex5.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter8/ex5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter8/ex6.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter8/ex6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter8/ex7.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter8/ex7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter8/ex8.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter8/ex8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter8/ex9.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter8/ex9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter9/New/AppSummation.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter9/New/AppSummation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter9/New/ApplicationCalculate.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter9/New/ApplicationCalculate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter9/New/MinMaxNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter9/New/MinMaxNumber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter9/New/MyCalculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter9/New/MyCalculator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter9/New/MyJFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter9/New/MyJFrame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter9/New/MyWindow.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter9/New/MyWindow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter9/New/Project.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter9/New/Project.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter9/New/Register.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter9/New/Register.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter9/New/Score.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter9/New/Score.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter9/New/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter9/New/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter9/New/StudentApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter9/New/StudentApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter9/New/WindowsBorderLayout.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter9/New/WindowsBorderLayout.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter9/New/WindowsFlowLayout.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter9/New/WindowsFlowLayout.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter9/New/WindowsGridLayout.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter9/New/WindowsGridLayout.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter9/New/WindowsGui4.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter9/New/WindowsGui4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter9/New/ex1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter9/New/ex1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter9/New/ex10.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter9/New/ex10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter9/New/ex11.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter9/New/ex11.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter9/New/ex2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter9/New/ex2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter9/New/ex3.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter9/New/ex3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter9/New/ex4.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter9/New/ex4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter9/New/ex5.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter9/New/ex5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter9/New/ex6.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter9/New/ex6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter9/New/ex7.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter9/New/ex7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter9/New/ex8.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter9/New/ex8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter9/New/ex9.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter9/New/ex9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter9/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter9/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter9/Register.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter9/Register.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter9/RegisterApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter9/RegisterApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter9/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter9/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter9/Subject.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter9/Subject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter9/ex1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter9/ex1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter9/ex2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter9/ex2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter9/oldAss/as1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter9/oldAss/as1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter9/oldAss/as2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter9/oldAss/as2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter9/oldAss/as3.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter9/oldAss/as3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter9/test/Register.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter9/test/Register.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter9/test/RegisterApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter9/test/RegisterApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter9/test/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter9/test/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter9/test/Subject.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter9/test/Subject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter9/test/ex1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter9/test/ex1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter9/test2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter9/test2/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter9/test2/Register.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter9/test2/Register.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter9/test2/RegisterApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter9/test2/RegisterApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter9/test2/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter9/test2/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter9/test2/Subject.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter9/test2/Subject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter9/test3/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter9/test3/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter9/test3/Register.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter9/test3/Register.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter9/test3/RegisterApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter9/test3/RegisterApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter9/test3/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter9/test3/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chapter9/test3/Subject.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chapter9/test3/Subject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/project/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/project/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/project/POS.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/project/POS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/project/POSFrame$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/project/POSFrame$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/project/POSFrame$CustomerTableModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/project/POSFrame$CustomerTableModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/project/POSFrame$ProductTableModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/project/POSFrame$ProductTableModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/project/POSFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/project/POSFrame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/project/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/project/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/project/Sale.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/project/Sale.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/project/SaleItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/project/SaleItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/project/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/project/test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/testF/CoffeeOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/testF/CoffeeOrder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/testF/MemberOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/testF/MemberOrder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/testF/Non_Test2/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/testF/Non_Test2/Car.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/testF/Non_Test2/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/testF/Non_Test2/Employee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/testF/Non_Test2/Motorcycle.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/testF/Non_Test2/Motorcycle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/testF/Non_Test2/PayrollApp_StudentID.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/testF/Non_Test2/PayrollApp_StudentID.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/testF/Non_Test2/RentalApp_StudentID.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/testF/Non_Test2/RentalApp_StudentID.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/testF/Non_Test2/Vehicle.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/testF/Non_Test2/Vehicle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/testF/Non_TestFinal/nonTest1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/testF/Non_TestFinal/nonTest1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/testF/Non_TestFinal/nonTest2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/testF/Non_TestFinal/nonTest2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/testF/Non_TestFinal/nonTest3.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/testF/Non_TestFinal/nonTest3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/testF/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/testF/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/testF/TestFinale/AppStudentGrade.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/testF/TestFinale/AppStudentGrade.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/testF/TestFinale/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/testF/TestFinale/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/testF/TestFinale/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/testF/TestFinale/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/testF/TestFinale/t1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/testF/TestFinale/t1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/testF/TestFinale/t2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/testF/TestFinale/t2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/testF/testFinal1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/testF/testFinal1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/testF/testFinal2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/testF/testFinal2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test_sbt/CalculateExponents.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test_sbt/CalculateExponents.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test_sbt/CalculateVehicle.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test_sbt/CalculateVehicle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test_sbt/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test_sbt/Employee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test_sbt/PrimeNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test_sbt/PrimeNumber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test_sbt/Pyramid.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test_sbt/Pyramid.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test_sbt/test/test_mid.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test_sbt/test/test_mid.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test_sbt/test/test_sbt.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test_sbt/test/test_sbt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test_sbt/test_old_ass/ass2/ass2_01.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test_sbt/test_old_ass/ass2/ass2_01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test_sbt/test_old_ass/ass2/ass2_02.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test_sbt/test_old_ass/ass2/ass2_02.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test_sbt/test_old_ass/ass2/ass2_03.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test_sbt/test_old_ass/ass2/ass2_03.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test_sbt/test_old_ass/ass2/ass2_04.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test_sbt/test_old_ass/ass2/ass2_04.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test_sbt/test_old_ass/ass3/ass3_01.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test_sbt/test_old_ass/ass3/ass3_01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test_sbt/test_old_ass/ass3/ass3_02.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test_sbt/test_old_ass/ass3/ass3_02.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test_sbt/test_old_ass/ass3/ass3_03.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test_sbt/test_old_ass/ass3/ass3_03.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test_sbt/test_old_ass/com/Triangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test_sbt/test_old_ass/com/Triangle.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;kanomoo&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/kanomoo/java_in_class.git&quot;,
+    &quot;accountId&quot;: &quot;6c90446b-a871-41e9-9847-c1159c918ac5&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="3CcZ8kEKJAlrqDNvUAu0hAU7EEy" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.Ass2_01.executor": "Run",
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "onboarding.tips.debug.path": "C:/Users/few71/PycharmProjects/java_in_class/src/Main.java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "editor.preferences.folding"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Assign07_6806021612037" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Assign07_6806021612037" />
+      <module name="java_in_class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="java_in_class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Assign07_6806021612037" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1a852345-93d8-4f94-b991-76c5d9f9a154" name="Changes" comment="" />
+      <created>1776686661622</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1776686661622</updated>
+    </task>
+    <servers />
+  </component>
+</project>

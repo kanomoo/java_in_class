@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "AppLoan_StudentID",
+            "request": "launch",
+            "mainClass": "Final.AppLoan_StudentID",
+            "projectName": "java_in_class_63e39e38"
+        },
+        {
+            "type": "java",
+            "name": "test_sbt",
+            "request": "launch",
+            "mainClass": "test_sbt.test.test_sbt",
+            "projectName": "java_in_class_63e39e38"
+        },
+        {
+            "type": "java",
+            "name": "ex1_2",
+            "request": "launch",
+            "mainClass": "chapter1.ex1_2",
+            "projectName": "java_in_class_63e39e38"
+        }
+    ]
+}
