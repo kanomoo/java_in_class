@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "test",
+            "request": "launch",
+            "mainClass": "testNon.test",
+            "projectName": "java_in_class_63e39e38"
+        },
+        {
+            "type": "java",
             "name": "AppLoan_StudentID",
             "request": "launch",
             "mainClass": "Final.AppLoan_StudentID",
