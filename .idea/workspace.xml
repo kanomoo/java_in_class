@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a852345-93d8-4f94-b991-76c5d9f9a154" name="Changes" comment="Add Java classes for triangle calculations and grade reporting&#10;&#10;- Implemented Triangle class for handling triangle-related operations.&#10;- Added ass3_01 class for a number guessing game with user input.&#10;- Created ass3_02 class to calculate and display grades based on user input.&#10;- Developed ass3_03 class for tax calculations with formatted output.&#10;- Introduced user-friendly menus and input prompts across all classes.&#10;- Ensured proper handling of user input and output formatting." />
+    <list default="true" id="1a852345-93d8-4f94-b991-76c5d9f9a154" name="Changes" comment="Add Java classes for triangle calculations and grade reporting&#10;&#10;- Implemented Triangle class for handling triangle-related operations.&#10;- Added ass3_01 class for a number guessing game with user input.&#10;- Created ass3_02 class to calculate and display grades based on user input.&#10;- Developed ass3_03 class for tax calculations with formatted output.&#10;- Introduced user-friendly menus and input prompts across all classes.&#10;- Ensured proper handling of user input and output formatting.">
+      <change afterPath="$PROJECT_DIR$/src/Udemy/PositiveNegativeZero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Udemy/SpeedConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Udemy/FirstClass.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,6 +58,7 @@
     "Application.FirstClass.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.MainChallenge.executor": "Run",
+    "Application.SpeedConverter.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -66,7 +72,7 @@
     "settings.editor.selected.configurable": "settings.sync"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.MainChallenge">
+  <component name="RunManager" selected="Application.SpeedConverter">
     <configuration name="Assign07_6806021612037" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Assign07_6806021612037" />
       <module name="java_in_class" />
@@ -94,8 +100,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpeedConverter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Udemy.SpeedConverter" />
+      <module name="java_in_class" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Udemy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SpeedConverter" />
         <item itemvalue="Application.MainChallenge" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Assign07_6806021612037" />
@@ -127,7 +147,23 @@
       <option name="project" value="LOCAL" />
       <updated>1776877079668</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add Java classes for triangle calculations and grade reporting&#10;&#10;- Implemented Triangle class for handling triangle-related operations.&#10;- Added ass3_01 class for a number guessing game with user input.&#10;- Created ass3_02 class to calculate and display grades based on user input.&#10;- Developed ass3_03 class for tax calculations with formatted output.&#10;- Introduced user-friendly menus and input prompts across all classes.&#10;- Ensured proper handling of user input and output formatting.">
+      <option name="closed" value="true" />
+      <created>1776877155043</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1776877155043</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Add Java classes for triangle calculations and grade reporting&#10;&#10;- Implemented Triangle class for handling triangle-related operations.&#10;- Added ass3_01 class for a number guessing game with user input.&#10;- Created ass3_02 class to calculate and display grades based on user input.&#10;- Developed ass3_03 class for tax calculations with formatted output.&#10;- Introduced user-friendly menus and input prompts across all classes.&#10;- Ensured proper handling of user input and output formatting.">
+      <option name="closed" value="true" />
+      <created>1776877162789</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1776877162789</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
