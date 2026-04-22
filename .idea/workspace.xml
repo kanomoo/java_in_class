@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a852345-93d8-4f94-b991-76c5d9f9a154" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Udemy/MainChallenge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="1a852345-93d8-4f94-b991-76c5d9f9a154" name="Changes" comment="Add Java classes for triangle calculations and grade reporting&#10;&#10;- Implemented Triangle class for handling triangle-related operations.&#10;- Added ass3_01 class for a number guessing game with user input.&#10;- Created ass3_02 class to calculate and display grades based on user input.&#10;- Developed ass3_03 class for tax calculations with formatted output.&#10;- Introduced user-friendly menus and input prompts across all classes.&#10;- Ensured proper handling of user input and output formatting." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,6 +21,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -113,6 +111,27 @@
       <option name="presentableId" value="Default" />
       <updated>1776686661622</updated>
     </task>
+    <task id="LOCAL-00001" summary="Add Java classes for triangle calculations and grade reporting&#10;&#10;- Implemented Triangle class for handling triangle-related operations.&#10;- Added ass3_01 class for a number guessing game with user input.&#10;- Created ass3_02 class to calculate and display grades based on user input.&#10;- Developed ass3_03 class for tax calculations with formatted output.&#10;- Introduced user-friendly menus and input prompts across all classes.&#10;- Ensured proper handling of user input and output formatting.">
+      <option name="closed" value="true" />
+      <created>1776877057381</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1776877057381</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Add Java classes for triangle calculations and grade reporting&#10;&#10;- Implemented Triangle class for handling triangle-related operations.&#10;- Added ass3_01 class for a number guessing game with user input.&#10;- Created ass3_02 class to calculate and display grades based on user input.&#10;- Developed ass3_03 class for tax calculations with formatted output.&#10;- Introduced user-friendly menus and input prompts across all classes.&#10;- Ensured proper handling of user input and output formatting.">
+      <option name="closed" value="true" />
+      <created>1776877079668</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1776877079668</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add Java classes for triangle calculations and grade reporting&#10;&#10;- Implemented Triangle class for handling triangle-related operations.&#10;- Added ass3_01 class for a number guessing game with user input.&#10;- Created ass3_02 class to calculate and display grades based on user input.&#10;- Developed ass3_03 class for tax calculations with formatted output.&#10;- Introduced user-friendly menus and input prompts across all classes.&#10;- Ensured proper handling of user input and output formatting." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Java classes for triangle calculations and grade reporting&#10;&#10;- Implemented Triangle class for handling triangle-related operations.&#10;- Added ass3_01 class for a number guessing game with user input.&#10;- Created ass3_02 class to calculate and display grades based on user input.&#10;- Developed ass3_03 class for tax calculations with formatted output.&#10;- Introduced user-friendly menus and input prompts across all classes.&#10;- Ensured proper handling of user input and output formatting." />
   </component>
 </project>
