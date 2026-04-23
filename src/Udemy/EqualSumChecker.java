@@ -1,5 +1,7 @@
 package Udemy;
 
-public class hasEqualSum {
-    
+public class EqualSumChecker {
+    public static boolean hasEqualSum(int firstNumber, int secondNumber, int sumValue) {
+        return firstNumber + secondNumber == sumValue;
+    }
 }

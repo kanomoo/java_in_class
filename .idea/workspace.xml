@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a852345-93d8-4f94-b991-76c5d9f9a154" name="Changes" comment="">
+    <list default="true" id="1a852345-93d8-4f94-b991-76c5d9f9a154" name="Changes" comment="Add Java classes for triangle calculations and grade reporting&#10;&#10;- Implemented Triangle class for handling triangle-related operations.&#10;- Added ass3_01 class for a number guessing game with user input.&#10;- Created ass3_02 class to calculate and display grades based on user input.&#10;- Developed ass3_03 class for tax calculations with formatted output.&#10;- Introduced user-friendly menus and input prompts across all classes.&#10;- Ensured proper handling of user input and output formatting.">
+      <change afterPath="$PROJECT_DIR$/src/Udemy/BarkingDog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Udemy/DecimalComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Udemy/EqualSumChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Udemy/LeapYear.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Udemy/MegaBytesConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Udemy/TeenNumberChecker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Udemy/SpeedConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Udemy/SpeedConverter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,50 +48,43 @@
   &quot;associatedIndex&quot;: 2
 }</component>
   <component name="ProjectId" id="3CcZ8kEKJAlrqDNvUAu0hAU7EEy" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Application.Ass2_01.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Assign07_6806021612037.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FirstClass.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MainChallenge.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SpeedConverter.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/few71/PycharmProjects/java_in_class/src/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;settings.sync&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.Ass2_01.executor": "Run",
+    "Application.Assign07_6806021612037.executor": "Run",
+    "Application.BarkingDog.executor": "Run",
+    "Application.DecimalComparator.executor": "Run",
+    "Application.FirstClass.executor": "Run",
+    "Application.LeapYear.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.MainChallenge.executor": "Run",
+    "Application.MegaBytesConverter.executor": "Run",
+    "Application.SpeedConverter.executor": "Run",
+    "Application.TeenNumberChecker.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "onboarding.tips.debug.path": "C:/Users/few71/PycharmProjects/java_in_class/src/Main.java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "settings.sync"
   }
-}</component>
-  <component name="RunManager" selected="Application.SpeedConverter">
-    <configuration name="Assign07_6806021612037" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Assign07_6806021612037" />
-      <module name="java_in_class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="java_in_class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainChallenge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Udemy.MainChallenge" />
+}]]></component>
+  <component name="RunManager" selected="Application.TeenNumberChecker">
+    <configuration name="BarkingDog" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Udemy.BarkingDog" />
       <module name="java_in_class" />
       <extension name="coverage">
         <pattern>
@@ -98,8 +96,47 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpeedConverter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Udemy.SpeedConverter" />
+    <configuration name="DecimalComparator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Udemy.DecimalComparator" />
+      <module name="java_in_class" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Udemy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LeapYear" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Udemy.LeapYear" />
+      <module name="java_in_class" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Udemy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MegaBytesConverter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Udemy.MegaBytesConverter" />
+      <module name="java_in_class" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Udemy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TeenNumberChecker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Udemy.TeenNumberChecker" />
       <module name="java_in_class" />
       <extension name="coverage">
         <pattern>
@@ -113,10 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SpeedConverter" />
-        <item itemvalue="Application.MainChallenge" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Assign07_6806021612037" />
+        <item itemvalue="Application.TeenNumberChecker" />
+        <item itemvalue="Application.DecimalComparator" />
+        <item itemvalue="Application.LeapYear" />
+        <item itemvalue="Application.BarkingDog" />
+        <item itemvalue="Application.MegaBytesConverter" />
       </list>
     </recent_temporary>
   </component>
